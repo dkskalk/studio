@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "testimonial-marina",
+      "description": "A happy mother holding her child.",
+      "imageUrl": "https://images.unsplash.com/photo-1504439158909-5a2f08876082?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3RoZXIlMjBjaGlsZHxlbnwwfHx8fDE3NjE2MTIyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mother child"
+    },
+    {
+      "id": "testimonial-juliana",
+      "description": "A smiling woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1554727242-741c14fa561c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c21pbGluZyUyMHdvbWFufGVufDB8fHx8MTc2MTU1ODk2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling woman"
+    },
+    {
+      "id": "testimonial-carolina",
+      "description": "A woman looking relieved and happy.",
+      "imageUrl": "https://images.unsplash.com/photo-1740510294148-2b8f82471496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWxpZXZlZCUyMHdvbWFufGVufDB8fHx8MTc2MTYxNzczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "relieved woman"
+    },
+    {
+      "id": "og-image",
+      "description": "A serene image of a sleeping child.",
+      "imageUrl": "https://images.unsplash.com/photo-1530455623052-e8441ae826f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbGVlcGluZyUyMGNoaWxkfGVufDB8fHx8MTc2MTYxNzczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sleeping child"
+    }
+  ]
 }
