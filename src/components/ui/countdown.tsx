@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 
 const Countdown: React.FC = () => {
   const calculateTimeLeft = () => {
-    // This creates a countdown that resets every 24 hours for the user.
     const now = new Date();
     const expiry = new Date(now);
     expiry.setHours(24, 0, 0, 0); // Next midnight
@@ -28,7 +27,6 @@ const Countdown: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState<{hours?: number, minutes?: number, seconds?: number}>({});
 
   useEffect(() => {
-    // Set initial time to avoid hydration mismatch
     setTimeLeft(calculateTimeLeft());
     
     const timer = setInterval(() => {
@@ -46,21 +44,21 @@ const Countdown: React.FC = () => {
   return (
     <div className="flex justify-center items-center gap-4 my-4">
       <div className="text-center">
-        <div className="text-4xl font-bold font-headline text-primary-foreground bg-background/20 rounded-lg p-3">
+        <div className="text-4xl font-bold font-mono text-primary-foreground bg-background/50 rounded-lg p-3">
           {formatTime(timeLeft.hours)}
         </div>
         <div className="text-xs text-primary-foreground/80 mt-1">Horas</div>
       </div>
       <div className="text-4xl font-bold text-primary-foreground">:</div>
       <div className="text-center">
-        <div className="text-4xl font-bold font-headline text-primary-foreground bg-background/20 rounded-lg p-3">
+        <div className="text-4xl font-bold font-mono text-primary-foreground bg-background/50 rounded-lg p-3">
           {formatTime(timeLeft.minutes)}
         </div>
         <div className="text-xs text-primary-foreground/80 mt-1">Minutos</div>
       </div>
        <div className="text-4xl font-bold text-primary-foreground">:</div>
       <div className="text-center">
-        <div className="text-4xl font-bold font-headline text-primary-foreground bg-background/20 rounded-lg p-3">
+        <div className="text-4xl font-bold font-mono text-primary-foreground bg-background/50 rounded-lg p-3">
           {formatTime(timeLeft.seconds)}
         </div>
         <div className="text-xs text-primary-foreground/80 mt-1">Segundos</div>

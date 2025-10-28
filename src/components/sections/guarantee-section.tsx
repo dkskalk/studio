@@ -1,50 +1,31 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Shield, ShieldCheck, ShieldQuestion } from 'lucide-react';
-
-const guarantees = [
-  {
-    icon: <ShieldCheck className="h-8 w-8 text-accent" />,
-    title: 'Garantia de Resultados em 7 Dias',
-    description: 'Se em 7 dias você não notar uma melhora significativa no sono do seu filho, devolvemos 100% do seu dinheiro. Simples assim.',
-  },
-  {
-    icon: <ShieldQuestion className="h-8 w-8 text-accent" />,
-    title: 'Garantia Incondicional de Satisfação',
-    description: 'Você tem 7 dias para testar tudo. Se por QUALQUER motivo não gostar, basta um e-mail para ter seu investimento de volta. Risco zero.',
-  },
-  {
-    icon: <Shield className="h-8 w-8 text-accent" />,
-    title: 'Garantia de Acesso Vitalício',
-    description: 'Pague uma vez e tenha acesso para sempre a todo o material e futuras atualizações. O método será seu para consultar quando precisar.',
-  },
-];
+import Image from 'next/image';
 
 export default function GuaranteeSection() {
   return (
-    <section id="garantia" className="py-20 md:py-28 bg-primary/50">
+    <section id="garantia" className="py-20 md:py-28 bg-primary">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center max-w-3xl mx-auto">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold">
-            Garantia Tripla de Satisfação
-          </h2>
-          <p className="mt-4 text-lg text-foreground/80">
-            Sua decisão é 100% livre de riscos. Assumimos toda a responsabilidade porque confiamos no poder do nosso método.
-          </p>
-        </div>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          {guarantees.map((guarantee, index) => (
-            <Card key={index} className="bg-card shadow-lg hover:shadow-xl transition-shadow duration-300 text-center border-2 border-transparent hover:border-accent">
-              <CardHeader>
-                <div className="mx-auto bg-primary rounded-full p-4 w-fit">
-                  {guarantee.icon}
-                </div>
-                <CardTitle className="font-headline pt-4">{guarantee.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-card-foreground/80">{guarantee.description}</p>
-              </CardContent>
-            </Card>
-          ))}
+        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+          <div className="w-full md:w-1/3 flex justify-center">
+            <Image
+              src="https://picsum.photos/seed/guarantee-seal/300/300"
+              alt="Selo de Garantia"
+              width={300}
+              height={300}
+              className="rounded-full"
+              data-ai-hint="guarantee seal"
+            />
+          </div>
+          <div className="w-full md:w-2/3 text-center md:text-left">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">
+              Garantia de 7 Dias!
+            </h2>
+            <p className="mt-4 text-lg text-foreground/80">
+              Você tem 7 dias para testar o método Neurohipnose Infantil. Se por qualquer motivo você não gostar ou achar que não é para você, basta enviar um único e-mail para nossa equipe de suporte e nós devolveremos 100% do seu dinheiro na hora, sem perguntas ou burocracia.
+            </p>
+            <p className="mt-4 text-lg font-bold text-foreground">
+              O risco é todo nosso!
+            </p>
+          </div>
         </div>
       </div>
     </section>

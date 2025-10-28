@@ -1,4 +1,3 @@
-import Header from '@/components/layout/header';
 import HeroSection from '@/components/sections/hero-section';
 import ProblemSection from '@/components/sections/problem-section';
 import BenefitsSection from '@/components/sections/benefits-section';
@@ -9,12 +8,10 @@ import GuaranteeSection from '@/components/sections/guarantee-section';
 import OfferSection from '@/components/sections/offer-section';
 import FinalCallSection from '@/components/sections/final-call-section';
 import Footer from '@/components/layout/footer';
-import FloatingCta from '@/components/ui/floating-cta';
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-dvh bg-background">
-      <Header />
       <main className="flex-grow">
         <HeroSection />
         <ProblemSection />
@@ -22,11 +19,10 @@ export default function Home() {
         <TruthSection />
         <TestimonialsSection />
         <MethodSection />
-        <GuaranteeSection />
         <OfferSection />
+        <GuaranteeSection />
         <FinalCallSection />
       </main>
-      <FloatingCta />
       <Footer />
     </div>
   );

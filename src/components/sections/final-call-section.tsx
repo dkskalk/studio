@@ -10,29 +10,33 @@ export default function FinalCallSection() {
             Você tem duas escolhas agora...
           </h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-            <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
-              <div className="flex items-center gap-3">
-                <XCircle className="h-8 w-8 text-red-500" />
-                <h3 className="font-headline text-xl font-bold">1. Não fazer nada</h3>
+            <div className="bg-red-100 border border-red-200 p-6 rounded-lg">
+              <div className="flex items-start gap-3">
+                <XCircle className="h-6 w-6 text-red-500 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-headline text-xl font-bold">Não fazer nada</h3>
+                  <p className="mt-2 text-foreground/80">
+                    E continuar vivendo noites de estresse e cansaço, vendo seu filho agitado e sem conseguir dormir.
+                  </p>
+                </div>
               </div>
-              <p className="mt-4 text-foreground/80">
-                Você pode fechar esta página e voltar para a mesma rotina de estresse, exaustão e noites mal dormidas. As coisas provavelmente não vão mudar sozinhas.
-              </p>
             </div>
-            <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
-              <div className="flex items-center gap-3">
-                <ArrowRight className="h-8 w-8 text-green-600" />
-                <h3 className="font-headline text-xl font-bold">2. Tomar uma atitude</h3>
+            <div className="bg-green-100 border border-green-200 p-6 rounded-lg">
+              <div className="flex items-start gap-3">
+                <ArrowRight className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-headline text-xl font-bold">Tomar uma atitude</h3>
+                  <p className="mt-2 text-foreground/80">
+                    E escolher a paz e o bem-estar do seu filho, aplicando um método que já ajudou centenas de famílias.
+                  </p>
+                </div>
               </div>
-              <p className="mt-4 text-foreground/80">
-                Ou você pode fazer um pequeno investimento, livre de riscos, no bem-estar do seu filho e na sua paz de espírito. E ver com seus próprios olhos a transformação que o Método Neurohipnose Infantil™ pode trazer.
-              </p>
             </div>
           </div>
           <div className="mt-12">
              <a href="#oferta" className="block">
                 <Button size="lg" className="w-full md:w-auto h-14 text-lg font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform">
-                   SIM, EU QUERO O MÉTODO NEUROHIPNOSE INFANTIL™ POR R$ 37,90
+                   QUERO O MÉTODO POR APENAS R$ 37,90
                 </Button>
             </a>
           </div>

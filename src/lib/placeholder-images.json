@@ -2,20 +2,20 @@
   "placeholderImages": [
     {
       "id": "testimonial-marina",
-      "description": "A happy mother holding her child.",
-      "imageUrl": "https://images.unsplash.com/photo-1504439158909-5a2f08876082?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3RoZXIlMjBjaGlsZHxlbnwwfHx8fDE3NjE2MTIyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mother child"
+      "description": "A happy mother.",
+      "imageUrl": "https://images.unsplash.com/photo-1599332244235-35c3d95c2539?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "happy mother"
     },
     {
       "id": "testimonial-juliana",
-      "description": "A smiling woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1554727242-741c14fa561c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c21pbGluZyUyMHdvbWFufGVufDB8fHx8MTc2MTU1ODk2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "smiling woman"
+      "description": "A content woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "content woman"
     },
     {
       "id": "testimonial-carolina",
-      "description": "A woman looking relieved and happy.",
-      "imageUrl": "https://images.unsplash.com/photo-1740510294148-2b8f82471496?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWxpZXZlZCUyMHdvbWFufGVufDB8fHx8MTc2MTYxNzczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A relieved woman smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "relieved woman"
     },
     {

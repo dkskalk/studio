@@ -1,17 +1,28 @@
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Badge } from '@/components/ui/badge';
 import { Terminal } from 'lucide-react';
 
 export default function ProblemSection() {
   return (
     <section className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold text-foreground">
-            Você se sente exausta, sobrecarregada e sem esperança?
-          </h2>
-          <p className="mt-4 text-lg text-foreground/80">
-            Noites em claro, o choro incessante, a agitação que parece não ter fim... A jornada de uma mãe de uma criança hiperativa pode ser solitária e desesperadora. Você ama seu filho mais do que tudo, mas a exaustão física e emocional está te consumindo. Você já tentou de tudo: chás, rotinas, talvez até medicamentos, mas nada parece funcionar de verdade.
-          </p>
+        <div className="text-center max-w-3xl mx-auto">
+            <Badge>Seu filho não dorme?</Badge>
+            <h2 className="font-headline text-3xl md:text-4xl font-bold text-foreground mt-2">
+              Você se sente cansada e sobrecarregada por não conseguir fazer seu filho dormir?
+            </h2>
+            <p className="mt-4 text-lg text-foreground/80">
+              A jornada de uma mãe pode ser solitária e desesperadora. Você ama seu filho mais do que tudo, mas a exaustão física e emocional está te consumindo. Você já tentou de tudo, mas nada parece funcionar.
+            </p>
+        </div>
+        <div className="mt-12 max-w-3xl mx-auto">
+             <Alert variant="destructive" className="bg-red-50 border-red-200 text-red-900">
+                <Terminal className="h-4 w-4 !text-red-900" />
+                <AlertTitle className="font-headline text-lg font-bold">ATENÇÃO: Descoberta Revolucionária!</AlertTitle>
+                <AlertDescription>
+                    As crianças da era digital possuem uma atividade cerebral mais acelerada por conta do excesso de estímulos que recebem. Por isso os métodos tradicionais para dormir não funcionam com elas.
+                </AlertDescription>
+            </Alert>
         </div>
       </div>
     </section>
