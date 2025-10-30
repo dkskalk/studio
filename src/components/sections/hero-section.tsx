@@ -1,10 +1,26 @@
 import { Button } from '@/components/ui/button';
 import CustomVideoPlayer from '../ui/custom-video-player';
+import { Moon, Star } from 'lucide-react';
 
 export default function HeroSection() {
   return (
-    <section id="inicio" className="bg-gradient-to-b from-primary/30 to-transparent pt-28 pb-20 text-center">
-      <div className="container mx-auto px-4 md:px-6">
+    <section id="inicio" className="relative overflow-hidden bg-gradient-to-b from-primary/30 to-transparent pt-28 pb-20 text-center">
+      
+      {/* Decorative elements */}
+      <div className="absolute top-10 left-10 text-foreground/10 opacity-50">
+        <Star className="h-16 w-16 animate-pulse" />
+      </div>
+      <div className="absolute top-20 right-16 text-foreground/10 opacity-50">
+        <Moon className="h-12 w-12 animate-pulse delay-500" />
+      </div>
+       <div className="absolute bottom-10 left-24 text-foreground/5 opacity-50">
+        <Star className="h-8 w-8 animate-pulse delay-1000" />
+      </div>
+       <div className="absolute bottom-20 right-32 text-foreground/10 opacity-50">
+        <Star className="h-6 w-6 animate-pulse delay-200" />
+      </div>
+
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <p className="font-semibold text-accent">Neurohipnose Infantil™</p>
         <h1 className="font-headline text-3xl md:text-5xl font-bold tracking-tighter text-foreground mt-2 text-balance">
             Tudo o Que Você Quer é Voltar a Dormir a Noite - Faça Seu Filho dormir Em 20 Minutos com a Neurohipnose Infantil™
