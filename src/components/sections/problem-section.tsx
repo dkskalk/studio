@@ -15,9 +15,9 @@ export default function ProblemSection() {
             </p>
         </div>
         <div className="mt-12 max-w-3xl mx-auto">
-             <Alert variant="destructive" className="bg-destructive/10 border-destructive/20 text-destructive-foreground shadow-lg animate-pulse">
+             <Alert className="bg-accent/10 border-accent/20 text-accent shadow-lg animate-pulse">
                 <AlertTitle className="font-headline text-lg font-bold text-center">ATENÇÃO: Descoberta Revolucionária!</AlertTitle>
-                <AlertDescription className="text-center text-base">
+                <AlertDescription className="text-center text-base text-accent/90">
                     As crianças da era digital possuem uma atividade cerebral mais acelerada por conta do excesso de estímulos que recebem. Por isso os métodos tradicionais para dormir não funcionam com elas.
                 </AlertDescription>
             </Alert>
