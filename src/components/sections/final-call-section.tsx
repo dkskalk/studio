@@ -16,7 +16,7 @@ export default function FinalCallSection() {
                 <div>
                   <h3 className="font-headline text-xl font-bold">Não fazer nada</h3>
                   <p className="mt-2 text-foreground/80">
-                    E continuar vivendo noites de estresse e cansaço, vendo seu filho agitado e sem conseguir dormir.
+                    E sentir o cansaço consumir o que resta da sua saúde mental. A agitação do seu filho vai piorar, e você continuará vendo os melhores anos da sua maternidade escorrerem pelo ralo por causa da privação de sono.
                   </p>
                 </div>
               </div>
