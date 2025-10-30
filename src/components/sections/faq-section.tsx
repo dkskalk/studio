@@ -16,7 +16,7 @@ import {
     },
     {
       question: "A partir de que idade posso usar o método?",
-      answer: "O método é mais eficaz em crianças a partir dos 2 anos de idade, que já possuem uma maior capacidade de compreensão e são mais suscetíveis às técnicas de relaxamento e indução do sono propostas.",
+      answer: "O método é mais eficaz em crianças a partir dos 2 anos de idade, que já possuem uma maior capacidade de compreensão e são mais suscetíveis às técnicas de relaxamento e indução do sono propostas. Porem, pode ser utilizado tambem em crianças a partir de 1 ano.",
     },
     {
       question: "E se não funcionar para o meu filho?",
