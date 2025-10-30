@@ -1,4 +1,4 @@
-import { AlertTriangle, Lightbulb } from 'lucide-react';
+import { Lightbulb } from 'lucide-react';
 import { Badge } from '../ui/badge';
 
 export default function TruthSection() {
@@ -7,7 +7,7 @@ export default function TruthSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center bg-secondary p-8 md:p-12 rounded-lg shadow-inner border border-red-200">
           <div className="flex justify-center items-center gap-2">
-            <AlertTriangle className="h-6 w-6 text-accent" />
+            
             <h2 className="font-headline text-2xl md:text-3xl font-bold text-secondary-foreground">
                 A verdade que nenhum pediatra irá te contar...
             </h2>
