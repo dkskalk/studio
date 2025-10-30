@@ -3,16 +3,16 @@ import { ArrowRight, XCircle } from 'lucide-react';
 
 export default function FinalCallSection() {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section className="py-20 md:py-28 bg-secondary/30">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">
             Você tem duas escolhas agora...
           </h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-            <div className="bg-red-100 border border-red-200 p-6 rounded-lg">
+            <div className="bg-destructive/10 border border-destructive/20 p-6 rounded-lg">
               <div className="flex items-start gap-3">
-                <XCircle className="h-6 w-6 text-red-500 flex-shrink-0 mt-1" />
+                <XCircle className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-headline text-xl font-bold">Não fazer nada</h3>
                   <p className="mt-2 text-foreground/80">
@@ -21,9 +21,9 @@ export default function FinalCallSection() {
                 </div>
               </div>
             </div>
-            <div className="bg-green-100 border border-green-200 p-6 rounded-lg">
+            <div className="bg-accent/10 border border-accent/20 p-6 rounded-lg">
               <div className="flex items-start gap-3">
-                <ArrowRight className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
+                <ArrowRight className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-headline text-xl font-bold">Tomar uma atitude</h3>
                   <p className="mt-2 text-foreground/80">

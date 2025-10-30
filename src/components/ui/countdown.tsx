@@ -44,24 +44,24 @@ const Countdown: React.FC = () => {
   return (
     <div className="flex justify-center items-center gap-4 my-4">
       <div className="text-center">
-        <div className="text-4xl font-bold font-mono text-primary-foreground bg-background/50 rounded-lg p-3">
+        <div className="text-4xl font-bold font-mono text-foreground bg-background/50 rounded-lg p-3">
           {formatTime(timeLeft.hours)}
         </div>
-        <div className="text-xs text-primary-foreground/80 mt-1">Horas</div>
+        <div className="text-xs text-foreground/80 mt-1">Horas</div>
       </div>
-      <div className="text-4xl font-bold text-primary-foreground">:</div>
+      <div className="text-4xl font-bold text-foreground">:</div>
       <div className="text-center">
-        <div className="text-4xl font-bold font-mono text-primary-foreground bg-background/50 rounded-lg p-3">
+        <div className="text-4xl font-bold font-mono text-foreground bg-background/50 rounded-lg p-3">
           {formatTime(timeLeft.minutes)}
         </div>
-        <div className="text-xs text-primary-foreground/80 mt-1">Minutos</div>
+        <div className="text-xs text-foreground/80 mt-1">Minutos</div>
       </div>
-       <div className="text-4xl font-bold text-primary-foreground">:</div>
+       <div className="text-4xl font-bold text-foreground">:</div>
       <div className="text-center">
-        <div className="text-4xl font-bold font-mono text-primary-foreground bg-background/50 rounded-lg p-3">
+        <div className="text-4xl font-bold font-mono text-foreground bg-background/50 rounded-lg p-3">
           {formatTime(timeLeft.seconds)}
         </div>
-        <div className="text-xs text-primary-foreground/80 mt-1">Segundos</div>
+        <div className="text-xs text-foreground/80 mt-1">Segundos</div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export default function TruthSection() {
   return (
     <section className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center bg-secondary p-8 md:p-12 rounded-lg shadow-inner border border-red-200">
+        <div className="max-w-3xl mx-auto text-center bg-secondary/30 p-8 md:p-12 rounded-lg shadow-inner border border-primary/20">
           <div className="flex justify-center items-center gap-2">
             
             <h2 className="font-headline text-2xl md:text-3xl font-bold text-secondary-foreground">
