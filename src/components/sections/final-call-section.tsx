@@ -27,7 +27,7 @@ export default function FinalCallSection() {
                 <div>
                   <h3 className="font-headline text-xl font-bold">Tomar uma atitude</h3>
                   <p className="mt-2 text-foreground/80">
-                    E escolher a paz e o bem-estar do seu filho, aplicando um método que já ajudou centenas de famílias.
+                    Abandone agora mesmo a rotina caótica. Inicie o método comprovado que, em poucas noites, desenvolve, regula e TRANSFORMA seu filho agitado em uma criança que dorme profundamente, acorda tranquila e se torna um poço de foco e atenção para o dia.
                   </p>
                 </div>
               </div>
