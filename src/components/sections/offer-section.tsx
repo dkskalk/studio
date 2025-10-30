@@ -23,7 +23,7 @@ export default function OfferSection() {
             
             <div className="my-8 flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8">
                 <div className="text-center">
-                    <p className="text-lg text-primary-foreground/70 line-through">De R$ 97,00 por apenas</p>
+                    <p className="text-lg text-primary-foreground/70 line-through">De R$ 379,90 por apenas</p>
                     <p className="font-headline text-5xl md:text-7xl font-bold text-primary-foreground">
                         R$ 37<span className="text-4xl md:text-5xl align-top">,90</span>
                     </p>
