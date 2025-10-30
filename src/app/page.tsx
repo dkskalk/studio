@@ -15,7 +15,7 @@ import FaqSection from '@/components/sections/faq-section';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-dvh bg-background">
+    <div className="flex flex-col min-h-dvh">
       <Header />
       <main className="flex-grow">
         <HeroSection />

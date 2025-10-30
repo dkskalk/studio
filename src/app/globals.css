@@ -65,6 +65,10 @@ html {
   }
   body {
     @apply bg-background text-foreground;
+    background-image: url('https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F354972e38c9d05e3f4358a9c402170cc.png?alt=media&token=48c8b422-9014-419a-9e5c-20593b4d8d17');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
 
