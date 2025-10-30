@@ -6,7 +6,7 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 md:px-6">
         <p className="font-semibold text-primary-foreground/80">Neurohipnose Infantil™</p>
         <h1 className="font-headline text-3xl md:text-5xl font-bold tracking-tighter text-primary-foreground mt-2">
-            Como fazer seu filho dormir em 20 minutos com a Neurohipnose Infantil™
+            Tudo o Que Você Quer é Voltar a Dormir a Noite - Faça Seu Filho dormir Em 20 Minutos com a Neurohipnose Infantil™
         </h1>
         
         <div className="mt-10 max-w-3xl mx-auto">
