@@ -1,6 +1,5 @@
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Badge } from '@/components/ui/badge';
-import { Terminal } from 'lucide-react';
 
 export default function ProblemSection() {
   return (
@@ -17,7 +16,6 @@ export default function ProblemSection() {
         </div>
         <div className="mt-12 max-w-3xl mx-auto">
              <Alert variant="destructive" className="bg-red-50 border-red-200 text-red-900">
-                <Terminal className="h-4 w-4 !text-red-900" />
                 <AlertTitle className="font-headline text-lg font-bold">ATENÇÃO: Descoberta Revolucionária!</AlertTitle>
                 <AlertDescription>
                     As crianças da era digital possuem uma atividade cerebral mais acelerada por conta do excesso de estímulos que recebem. Por isso os métodos tradicionais para dormir não funcionam com elas.
