@@ -57,7 +57,7 @@ export default function GuaranteeSection() {
                  <div className="mx-auto bg-primary rounded-full p-4 w-fit">
                     {guarantee.icon}
                 </div>
-                <p className="text-sm font-semibold text-primary/80 uppercase tracking-wider pt-4">{guarantee.subtitle}</p>
+                <p className="text-sm font-semibold text-foreground uppercase tracking-wider pt-4">{guarantee.subtitle}</p>
                 <CardTitle className="font-headline text-xl">{guarantee.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col flex-grow">
