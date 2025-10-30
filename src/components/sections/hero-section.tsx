@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import CustomVideoPlayer from '../ui/custom-video-player';
 
 export default function HeroSection() {
   return (
@@ -10,16 +11,7 @@ export default function HeroSection() {
         </h1>
         
         <div className="mt-10 max-w-3xl mx-auto">
-            <div className="aspect-video w-full rounded-lg overflow-hidden shadow-2xl border-4 border-background/50 bg-muted">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/FNymauRq1AA"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </div>
+            <CustomVideoPlayer videoId="FNymauRq1AA" />
             <p className="mt-6 text-lg text-foreground/90">Assista a curta apresentação e descubra o segredo que centenas de mães estão usando para fazer seus filhos dormirem rápido.</p>
         </div>
 
