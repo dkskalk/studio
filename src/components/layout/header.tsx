@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -14,6 +13,7 @@ const navLinks = [
   { name: 'Depoimentos', href: '#depoimentos' },
   { name: 'Garantia', href: '#garantia' },
   { name: 'Oferta', href: '#oferta' },
+  { name: 'FAQ', href: '#faq' },
 ];
 
 export default function Header() {

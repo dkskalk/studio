@@ -8,20 +8,27 @@ import GuaranteeSection from '@/components/sections/guarantee-section';
 import OfferSection from '@/components/sections/offer-section';
 import FinalCallSection from '@/components/sections/final-call-section';
 import Footer from '@/components/layout/footer';
+import Header from '@/components/layout/header';
+import ForWhomSection from '@/components/sections/for-whom-section';
+import FaqSection from '@/components/sections/faq-section';
+
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-dvh bg-background">
+      <Header />
       <main className="flex-grow">
         <HeroSection />
         <ProblemSection />
         <BenefitsSection />
         <TruthSection />
+        <ForWhomSection />
         <TestimonialsSection />
         <MethodSection />
         <OfferSection />
         <GuaranteeSection />
         <FinalCallSection />
+        <FaqSection />
       </main>
       <Footer />
     </div>
