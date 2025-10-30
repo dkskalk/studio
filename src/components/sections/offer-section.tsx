@@ -18,7 +18,7 @@ export default function OfferSection() {
         <Card className="max-w-4xl mx-auto bg-primary shadow-2xl border-border">
           <CardContent className="p-6 md:p-12 text-center">
             <h2 className="font-headline text-3xl md:text-4xl font-bold text-primary-foreground">
-              Oferta Especial de Lançamento
+              Oferta Especial de Novembro
             </h2>
             
             <div className="my-8 flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8">
