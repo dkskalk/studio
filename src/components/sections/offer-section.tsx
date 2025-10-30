@@ -48,8 +48,9 @@ export default function OfferSection() {
             </div>
 
             <a href="#" className="block">
-              <Button size="lg" className="w-full h-16 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform animate-pulse">
-                QUERO O MÉTODO POR APENAS R$ 37,90
+              <Button size="lg" className="w-full h-16 text-lg md:text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform animate-pulse">
+                <span className="hidden md:inline">QUERO O MÉTODO POR APENAS R$ 37,90</span>
+                <span className="md:hidden">QUERO O MÉTODO AGORA!</span>
               </Button>
             </a>
             <p className="mt-4 text-sm text-foreground/70 flex items-center justify-center gap-2">

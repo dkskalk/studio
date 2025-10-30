@@ -35,8 +35,9 @@ export default function FinalCallSection() {
           </div>
           <div className="mt-12">
              <a href="#oferta" className="block">
-                <Button size="lg" className="w-full md:w-auto h-14 text-lg font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform">
-                   QUERO O MÉTODO POR APENAS R$ 37,90
+                <Button size="lg" className="w-full md:w-auto h-14 text-base md:text-lg font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform">
+                   <span className="hidden md:inline">QUERO O MÉTODO POR APENAS R$ 37,90</span>
+                   <span className="md:hidden">QUERO O MÉTODO AGORA!</span>
                 </Button>
             </a>
           </div>
