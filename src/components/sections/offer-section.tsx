@@ -4,11 +4,10 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import Countdown from '@/components/ui/countdown';
-import { CheckCircle2, Lock, AlertTriangle } from 'lucide-react';
+import { CheckCircle2, Lock, AlertTriangle, X } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import {
   AlertDialog,
-  AlertDialogAction,
   AlertDialogContent,
   AlertDialogDescription,
   AlertDialogFooter,
@@ -134,9 +133,9 @@ export default function OfferSection() {
       </section>
 
       <AlertDialog open={showSpecialOffer} onOpenChange={setShowSpecialOffer}>
-        <AlertDialogContent className="bg-background border-accent neon-glow-accent">
+        <AlertDialogContent className="bg-background border-yellow-400 shadow-yellow-400/30" style={{boxShadow: '0 0 15px hsl(var(--ring)), 0 0 20px hsl(var(--ring) / 0.8)'}}>
           <AlertDialogHeader>
-            <AlertDialogTitle className="font-headline text-3xl text-center text-accent flex items-center justify-center gap-2">
+            <AlertDialogTitle className="font-headline text-3xl text-center text-yellow-400 flex items-center justify-center gap-2">
               <AlertTriangle className="h-8 w-8" /> OFERTA ÚNICA!
             </AlertDialogTitle>
             <AlertDialogDescription className="text-center text-lg text-foreground/90">
@@ -144,8 +143,8 @@ export default function OfferSection() {
             </AlertDialogDescription>
           </AlertDialogHeader>
           
-          <div className="my-6 text-center">
-            <h3 className="font-headline text-2xl font-bold">Acesso VITALÍCIO por um preço de banana!</h3>
+          <div className="my-4 text-center">
+            <h3 className="font-headline text-2xl font-bold">Acesso VITALÍCIO por um preço irrecusável!</h3>
             <p className="text-lg text-foreground/70 line-through mt-2">De R$ 379,90</p>
             <p className="font-headline text-7xl font-bold text-foreground">
                 R$ 19<span className="text-6xl align-top">,90</span>
@@ -161,13 +160,20 @@ export default function OfferSection() {
           <AlertDialogFooter className="flex-col gap-2 mt-4">
               <a href="#" className="w-full">
                 <Button size="lg" className="w-full h-14 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg animate-pulse">
-                  QUERO ESTA OFERTA!
+                  QUERO ESTA OFERTA AGORA!
                 </Button>
               </a>
-              <Button variant="ghost" className="w-full text-xs text-foreground/60" onClick={() => setShowSpecialOffer(false)}>
-                  Não, obrigado. Eu entendo que esta oferta não aparecerá novamente.
-              </Button>
+              <div className='text-center text-xs text-foreground/60 mt-2 space-y-2'>
+                <p>Essa oferta não aparecerá novamente caso termine ou caso seja fechada.</p>
+                <a href="#" onClick={(e) => { e.preventDefault(); setShowSpecialOffer(false); }} className="underline hover:text-foreground">
+                  Não, obrigado. Quero seguir com a assinatura mensal.
+                </a>
+              </div>
           </AlertDialogFooter>
+           <button onClick={() => setShowSpecialOffer(false)} className="absolute top-2 right-2 p-1 rounded-full text-foreground/50 hover:bg-white/10 hover:text-foreground">
+              <X className="h-5 w-5" />
+              <span className="sr-only">Fechar</span>
+            </button>
         </AlertDialogContent>
       </AlertDialog>
     </>
