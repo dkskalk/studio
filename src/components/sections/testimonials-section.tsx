@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: 'Marina S.',
     location: 'São Paulo, SP',
-    image: PlaceHolderImages.find(img => img.id === 'testimonial-marina'),
+    image: {imageUrl: 'https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F54cead7b9a52ab88b0a70f3f2d22f6d5.png?alt=media&token=850438b9-52e4-4d89-bb0d-c05284af65c6', imageHint: 'mother son'},
     text: "Meu filho de 4 anos não dormia de jeito nenhum, eu já estava exausta e não sabia mais o que fazer. O método foi a minha salvação, hoje ele dorme a noite toda e eu voltei a ter paz.",
   },
   {
