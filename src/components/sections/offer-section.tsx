@@ -32,14 +32,14 @@ export default function OfferSection() {
             </p>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
             {/* Monthly Plan */}
-            <Card className="bg-primary/20 shadow-lg border-primary/30 transition-all hover:scale-105">
+            <Card className="bg-primary/20 shadow-lg border-primary/30 transition-all hover:scale-105 flex flex-col">
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl">Assinatura Mensal</CardTitle>
                     <CardDescription>Acesso essencial para começar.</CardDescription>
                 </CardHeader>
-                <CardContent className="flex flex-col h-full">
+                <CardContent className="flex flex-col flex-grow">
                     <div className="my-8 text-center">
                         <p className="text-lg text-foreground/70 line-through">De R$ 197,90 por</p>
                         <p className="font-headline text-5xl font-bold text-foreground">
@@ -67,13 +67,13 @@ export default function OfferSection() {
             </Card>
 
             {/* Lifetime Plan - Highlighted */}
-            <Card className="bg-accent/10 shadow-2xl border-2 border-accent/50 shadow-accent/20 transition-all hover:shadow-accent/30 neon-glow-accent relative hover:scale-105">
+            <Card className="bg-accent/10 shadow-2xl border-2 border-accent/50 shadow-accent/20 transition-all hover:shadow-accent/30 neon-glow-accent relative hover:scale-105 flex flex-col">
                 <Badge className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground">Mais Popular</Badge>
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl">Acesso Vitalício</CardTitle>
                     <CardDescription>A solução completa e definitiva.</CardDescription>
                 </CardHeader>
-                <CardContent className="flex flex-col h-full">
+                <CardContent className="flex flex-col flex-grow">
                     <div className="my-8 text-center">
                         <p className="text-lg text-foreground/70 line-through">De R$ 379,90 por apenas</p>
                         <p className="font-headline text-6xl font-bold text-foreground">
