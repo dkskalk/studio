@@ -59,7 +59,7 @@ export default function OfferSection() {
                         </ul>
                     </div>
                     <a href="#" className="block mt-8">
-                        <Button size="lg" variant="secondary" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform">
+                        <Button size="lg" variant="secondary" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform bg-accent text-accent-foreground hover:bg-accent/90">
                             ASSINAR PLANO MENSAL
                         </Button>
                     </a>
