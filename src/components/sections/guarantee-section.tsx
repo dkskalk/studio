@@ -51,8 +51,8 @@ export default function GuaranteeSection() {
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          {guarantees.map((guarantee) => (
-            <Card key={guarantee.title} className="bg-card shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
+          {guarantees.map((guarantee, index) => (
+            <Card key={guarantee.title} className="bg-card shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col neon-glow-primary">
               <CardHeader className="text-center items-center">
                  <div className="mx-auto bg-primary/50 rounded-full p-4 w-fit">
                     {guarantee.icon}

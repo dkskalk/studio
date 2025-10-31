@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
 import { Moon, Star } from 'lucide-react';
-import CustomVideoPlayer from '../ui/custom-video-player';
 
 export default function HeroSection() {
   return (
@@ -27,7 +26,17 @@ export default function HeroSection() {
         </h1>
         
         <div className="mt-10 max-w-3xl mx-auto">
-             <CustomVideoPlayer videoId="FNymauRq1AA" />
+            <div className="relative aspect-video w-full rounded-lg overflow-hidden shadow-2xl border-4 border-background/50 bg-muted group">
+               <iframe 
+                src="https://www.youtube.com/embed/FNymauRq1AA?rel=0" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              ></iframe>
+            </div>
             <p className="mt-6 text-lg text-foreground/90">Assista a curta apresentação e descubra o segredo que centenas de mães estão usando para fazer seus filhos dormirem rápido.</p>
         </div>
 

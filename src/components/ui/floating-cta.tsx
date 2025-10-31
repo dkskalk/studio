@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from './button';
 import { cn } from '@/lib/utils';
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp, ShoppingCart } from 'lucide-react';
 
 export default function FloatingCta() {
     const [isVisible, setIsVisible] = useState(false);
@@ -25,16 +25,16 @@ export default function FloatingCta() {
 
     return (
         <div className={cn(
-            "fixed bottom-4 right-4 z-50 transition-opacity duration-300",
-            isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
+            "fixed bottom-4 right-4 z-50 transition-all duration-500 ease-in-out transform",
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
         )}>
             <a href="#oferta">
                 <Button 
                     size="lg" 
                     className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-2xl rounded-full h-16 animate-pulse"
                 >
-                    <ArrowUp className="mr-2 h-5 w-5 animate-bounce" />
-                    QUERO MINHA VAGA AGORA!
+                    <ShoppingCart className="mr-2 h-5 w-5" />
+                    QUERO O MÉTODO AGORA!
                 </Button>
             </a>
         </div>

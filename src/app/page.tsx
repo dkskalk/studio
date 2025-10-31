@@ -11,6 +11,7 @@ import Footer from '@/components/layout/footer';
 import Header from '@/components/layout/header';
 import ForWhomSection from '@/components/sections/for-whom-section';
 import FaqSection from '@/components/sections/faq-section';
+import FloatingCta from '@/components/ui/floating-cta';
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
         <FaqSection />
       </main>
       <Footer />
+      <FloatingCta />
     </div>
   );
 }

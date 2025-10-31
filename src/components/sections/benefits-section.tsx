@@ -30,7 +30,7 @@ export default function BenefitsSection() {
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
           {discoveries.map((discovery, index) => (
-            <Card key={index} className="bg-card shadow-lg hover:shadow-xl transition-shadow duration-300 text-center border-2 border-primary/50">
+            <Card key={index} className="bg-card shadow-lg hover:shadow-accent/20 transition-all duration-300 text-center border-2 border-primary/50 hover:border-accent/50 shadow-primary/20 hover:scale-105">
               <CardHeader>
                 <div className="mx-auto bg-primary/50 rounded-full p-4 w-fit">
                   {discovery.icon}

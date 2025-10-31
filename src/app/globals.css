@@ -76,4 +76,16 @@ html {
     .text-balance {
         text-wrap: balance;
     }
+    .neon-glow-accent {
+        box-shadow: 0 0 5px hsl(var(--accent)),
+                    0 0 10px hsl(var(--accent) / 0.8),
+                    0 0 20px hsl(var(--accent) / 0.6);
+        border-color: hsl(var(--accent) / 0.8);
+    }
+    .neon-glow-primary {
+        box-shadow: 0 0 5px hsl(var(--primary)),
+                    0 0 10px hsl(var(--primary) / 0.8),
+                    0 0 20px hsl(var(--primary) / 0.6);
+        border-color: hsl(var(--primary) / 0.8);
+    }
 }
