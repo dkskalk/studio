@@ -8,7 +8,7 @@ export default function ProblemSection() {
         <div className="text-center max-w-3xl mx-auto">
             <Badge variant="secondary" className="text-sm px-4 py-2 neon-glow-accent">SEU FILHO NÃO DORME E ISSO ESTA TE ENLOUQUECENDO</Badge>
             <h2 className="font-headline text-3xl md:text-4xl font-bold text-foreground mt-4">
-              Você se sente cansada e sobrecarregada por não conseguir fazer seu filho dormir?
+              Você se sente cansada, sobrecarregada e culpada por não conseguir fazer seu filho dormir?
             </h2>
             <p className="mt-4 text-lg text-foreground/80">
               A jornada de uma mãe pode ser solitária e desesperadora. Você ama seu filho mais do que tudo, mas a exaustão física e emocional está te consumindo. Você já tentou de tudo, mas nada parece funcionar.
