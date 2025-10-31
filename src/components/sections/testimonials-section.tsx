@@ -1,7 +1,6 @@
 "use client"
 
 import { Card, CardContent } from '@/components/ui/card';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
 import { Star } from 'lucide-react';
 import {
@@ -16,61 +15,61 @@ const testimonials = [
   {
     name: 'Marina S.',
     location: 'São Paulo, SP',
-    image: {imageUrl: 'https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F54cead7b9a52ab88b0a70f3f2d22f6d5.png?alt=media&token=850438b9-52e4-4d89-bb0d-c05284af65c6', imageHint: 'mother son'},
+    image: {imageUrl: 'https://picsum.photos/seed/marina/80/60', imageHint: 'mother son'},
     text: "Meu filho de 4 anos não dormia de jeito nenhum, eu já estava exausta e não sabia mais o que fazer. O método foi a minha salvação, hoje ele dorme a noite toda e eu voltei a ter paz.",
   },
   {
     name: 'Juliana P.',
     location: 'Rio de Janeiro, RJ',
-    image: PlaceHolderImages.find(img => img.id === 'testimonial-juliana'),
+    image: {imageUrl: 'https://picsum.photos/seed/juliana/80/60', imageHint: 'content woman'},
     text: "Cética no início, mas desesperada. Hoje, não sei o que seria de mim sem essas faixas de áudio. Meu filho adormece sorrindo. Recomendo de olhos fechados!",
   },
   {
     name: 'Carolina M.',
     location: 'Belo Horizonte, MG',
-    image: PlaceHolderImages.find(img => img.id === 'testimonial-carolina'),
+    image: {imageUrl: 'https://picsum.photos/seed/carolina/80/60', imageHint: 'relieved woman'},
     text: "O melhor investimento que já fiz pela minha saúde mental e pelo bem-estar do meu pequeno. As birras na hora de dormir acabaram. Só gratidão!",
   },
   {
     name: 'Fernanda L.',
     location: 'Salvador, BA',
-    image: {imageUrl: 'https://picsum.photos/seed/fernanda/60/60', imageHint: 'smiling woman'},
+    image: {imageUrl: 'https://picsum.photos/seed/fernanda/80/60', imageHint: 'smiling woman'},
     text: "Funciona mesmo! Meu filho agora pede pelos 'áudios mágicos' antes de dormir. É incrível ver ele relaxando e adormecendo em minutos.",
   },
   {
     name: 'Patricia R.',
     location: 'Curitiba, PR',
-    image: {imageUrl: 'https://picsum.photos/seed/patricia/60/60', imageHint: 'happy mother'},
+    image: {imageUrl: 'https://picsum.photos/seed/patricia/80/60', imageHint: 'happy mother'},
     text: "Estava a um passo de um burnout. Esse método não só ajudou meu filho a dormir, mas salvou minhas noites e minha sanidade. Recomendo para todas as mães.",
   },
   {
     name: 'Amanda C.',
     location: 'Fortaleza, CE',
-    image: {imageUrl: 'https://picsum.photos/seed/amanda/60/60', imageHint: 'woman portrait'},
+    image: {imageUrl: 'https://picsum.photos/seed/amanda/80/60', imageHint: 'woman portrait'},
     text: "Meu filho era muito agitado à noite. Com a rotina e os áudios, ele se acalma e o sono vem naturalmente. Transformou nossa casa.",
   },
     {
     name: 'Sofia B.',
     location: 'Porto Alegre, RS',
-    image: {imageUrl: 'https://picsum.photos/seed/sofia/60/60', imageHint: 'woman smiling'},
+    image: {imageUrl: 'https://picsum.photos/seed/sofia/80/60', imageHint: 'woman smiling'},
     text: "Achei que era exagero, mas em 3 dias meu filho já dormia mais rápido. Em uma semana, ele já não acordava mais de madrugada. Milagroso!",
   },
   {
     name: 'Laura F.',
     location: 'Brasília, DF',
-    image: {imageUrl: 'https://picsum.photos/seed/laura/60/60', imageHint: 'person portrait'},
+    image: {imageUrl: 'https://picsum.photos/seed/laura/80/60', imageHint: 'person portrait'},
     text: "Minha filha de 6 anos sempre teve o sono leve. Os áudios ajudaram ela a ter um sono mais profundo e reparador. Ela acorda muito mais disposta!",
   },
   {
     name: 'Beatriz G.',
     location: 'Recife, PE',
-    image: {imageUrl: 'https://picsum.photos/seed/beatriz/60/60', imageHint: 'mother outdoor'},
+    image: {imageUrl: 'https://picsum.photos/seed/beatriz/80/60', imageHint: 'mother outdoor'},
     text: "O guia de rotina foi essencial. Junto com os áudios, criamos um ritual de sono que funciona todas as noites. Adeus, noites em claro!",
   },
   {
     name: 'Gabriela A.',
     location: 'Manaus, AM',
-    image: {imageUrl: 'https://picsum.photos/seed/gabriela/60/60', imageHint: 'happy person'},
+    image: {imageUrl: 'https://picsum.photos/seed/gabriela/80/60', imageHint: 'happy person'},
     text: "Vale cada centavo. A paz que temos em casa agora não tem preço. Meu filho dorme tranquilo e eu também. Obrigada!",
   },
 ];
@@ -118,9 +117,10 @@ export default function TestimonialsSection() {
                                 <Image
                                     src={testimonial.image.imageUrl}
                                     alt={`Foto de ${testimonial.name}`}
-                                    width={60}
+                                    width={80}
                                     height={60}
                                     className="rounded-full border-2 border-primary"
+                                    style={{ objectFit: 'cover' }}
                                     data-ai-hint={testimonial.image.imageHint}
                                 />
                             )}
