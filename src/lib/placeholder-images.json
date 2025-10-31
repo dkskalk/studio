@@ -2,21 +2,63 @@
   "placeholderImages": [
     {
       "id": "testimonial-marina",
-      "description": "A happy mother and her son smiling.",
-      "imageUrl": "https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F54cead7b9a52ab88b0a70f3f2d22f6d5.png?alt=media&token=850438b9-52e4-4d89-bb0d-c05284af65c6",
+      "description": "A happy mother holding her young son.",
+      "imageUrl": "https://images.unsplash.com/photo-1599557049362-79c351ergf73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3RoZXIlMjBhbmQlMjBzb258ZW58MHx8fHwxNzYxNjEzMzk0fDA&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "mother son"
     },
     {
       "id": "testimonial-juliana",
-      "description": "A content woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "content woman"
+      "description": "Portrait of a content woman in her 30s.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMG9mJTIwYSUyMHdvbWFufGVufDB8fHx8MTc2MTYxMzUxMXww&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "woman portrait"
     },
     {
       "id": "testimonial-carolina",
-      "description": "A relieved woman smiling.",
-      "imageUrl": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A relieved woman smiling, with a soft background.",
+      "imageUrl": "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZWxpZXZlZCUyMHdvbWFufGVufDB8fHx8MTc2MTYxMzU0Nnww&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "relieved woman"
+    },
+    {
+      "id": "testimonial-fernanda",
+      "description": "A smiling woman in her late 20s.",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWF0Y2h8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYxNjEzNTgyfDA&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "smiling woman"
+    },
+    {
+      "id": "testimonial-patricia",
+      "description": "A happy mother outdoors with her child out of focus in the background.",
+      "imageUrl": "https://images.unsplash.com/photo-1565498212132-3e582834b358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMG1vdGhlcnxlbnwwfHx8fDE3NjE2MTM2MTB8MA&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "happy mother"
+    },
+    {
+      "id": "testimonial-amanda",
+      "description": "Close-up portrait of a thoughtful woman.",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTc2MTYxMzY0NHww&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-sofia",
+      "description": "A woman with a bright, happy smile.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTc2MTYxMzY0NHww&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "testimonial-laura",
+      "description": "A mother gently holding her daughter.",
+      "imageUrl": "https://images.unsplash.com/photo-1621992128099-4a991443585c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb3RoZXIlMjBkYXVnaHRlcnxlbnwwfHx8fDE3NjE2MTM3MjJ8MA&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "mother daughter"
+    },
+    {
+      "id": "testimonial-beatriz",
+      "description": "A mother smiling outdoors.",
+      "imageUrl": "https://images.unsplash.com/photo-1598207951491-255eaf139943?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3RoZXIlMjBvdXRkb29yfGVufDB8fHx8MTc2MTYxMzc1Mnww&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "mother outdoor"
+    },
+    {
+      "id": "testimonial-gabriela",
+      "description": "A joyful person with a candid smile.",
+      "imageUrl": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjE2MTM3ODF8MA&ixlib=rb-4.1.0&q=80&w=200",
+      "imageHint": "happy person"
     },
     {
       "id": "og-image",
