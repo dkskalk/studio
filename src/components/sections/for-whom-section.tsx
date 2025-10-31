@@ -5,7 +5,7 @@ export default function ForWhomSection() {
     <section id="para-quem" className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="bg-accent/10 border border-accent/20 p-8 rounded-lg">
+          <div className="bg-accent/10 border border-accent/20 p-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-accent/20">
             <h3 className="font-headline text-2xl font-bold text-accent/90 mb-6 text-center">Para quem É o método</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
@@ -26,7 +26,7 @@ export default function ForWhomSection() {
               </li>
             </ul>
           </div>
-          <div className="bg-destructive/10 border border-destructive/20 p-8 rounded-lg">
+          <div className="bg-destructive/10 border border-destructive/20 p-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-destructive/20">
             <h3 className="font-headline text-2xl font-bold text-destructive/90 mb-6 text-center">Para quem NÃO É o método</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
