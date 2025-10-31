@@ -40,9 +40,9 @@ export default function MethodSection() {
                 O que você vai receber
             </h2>
         </div>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {modules.map((module) => (
-            <Card key={module.title} className="flex flex-col text-center border-2 border-primary/50 shadow-sm bg-primary/20">
+            <Card key={module.title} className="flex flex-col text-center border-2 border-transparent shadow-lg bg-primary/20 neon-glow-primary transition-all duration-300 hover:scale-105 hover:shadow-accent/20">
               <CardHeader className="items-center">
                 <div className="bg-primary/50 rounded-full p-3 w-fit">
                     {module.icon}
