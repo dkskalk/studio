@@ -157,7 +157,7 @@ export default function OfferSection() {
             <SpecialOfferCountdown duration={120} onExpire={() => setShowSpecialOffer(false)} />
           </div>
 
-          <AlertDialogFooter className="flex-col gap-2 mt-4">
+          <AlertDialogFooter className="flex-col gap-2 mt-4 items-center">
               <a href="#" className="w-full">
                 <Button size="lg" className="w-full h-14 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg animate-pulse">
                   QUERO ESTA OFERTA AGORA!
