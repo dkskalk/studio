@@ -37,7 +37,6 @@ export default function HeroSection() {
                 className="absolute inset-0 w-full h-full"
               ></iframe>
             </div>
-            <p className="mt-6 text-lg text-foreground/90">Assista a curta apresentação e descubra o segredo que centenas de mães estão usando para fazer seus filhos dormirem rápido.</p>
         </div>
 
         <div className="mt-8">
