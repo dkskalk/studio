@@ -33,39 +33,6 @@ export default function OfferSection() {
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-            {/* Monthly Plan */}
-            <Card className="bg-primary/20 shadow-lg border-primary/30 transition-all hover:scale-105 flex flex-col">
-                <CardHeader>
-                    <CardTitle className="font-headline text-2xl">Assinatura Mensal</CardTitle>
-                    <CardDescription>Acesso essencial para começar.</CardDescription>
-                </CardHeader>
-                <CardContent className="flex flex-col flex-grow">
-                    <div className="my-8 text-center">
-                        <p className="text-lg text-foreground/70 line-through">De R$ 197,90 por</p>
-                        <p className="font-headline text-5xl font-bold text-foreground">
-                            R$ 9<span className="text-4xl align-top">,90</span>
-                        </p>
-                        <p className="font-semibold text-foreground/80">(por mês)</p>
-                    </div>
-                    <div className="p-6 bg-background rounded-lg flex-grow">
-                        <h4 className="font-headline font-bold text-xl text-center">Acesso Essencial:</h4>
-                        <ul className="mt-4 space-y-2 text-left">
-                            {monthlyItems.map(item => (
-                                <li key={item} className="flex items-center gap-2">
-                                    <CheckCircle2 className="h-5 w-5 text-accent" />
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                    <a href="#" className="block mt-8">
-                        <Button size="lg" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform bg-accent text-accent-foreground hover:bg-accent/90">
-                            ASSINAR PLANO MENSAL
-                        </Button>
-                    </a>
-                </CardContent>
-            </Card>
-
             {/* Lifetime Plan - Highlighted */}
             <Card className="bg-accent/10 shadow-2xl border-2 border-accent/50 shadow-accent/20 transition-all hover:shadow-accent/30 neon-glow-accent relative hover:scale-105 flex flex-col">
                 <Badge className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground">Mais Popular</Badge>
@@ -95,6 +62,39 @@ export default function OfferSection() {
                     <a href="#" className="block mt-8">
                         <Button size="lg" className="w-full h-16 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform animate-pulse">
                             QUERO ACESSO VITALÍCIO!
+                        </Button>
+                    </a>
+                </CardContent>
+            </Card>
+
+            {/* Monthly Plan */}
+            <Card className="bg-primary/20 shadow-lg border-primary/30 transition-all hover:scale-105 flex flex-col">
+                <CardHeader>
+                    <CardTitle className="font-headline text-2xl">Assinatura Mensal</CardTitle>
+                    <CardDescription>Acesso essencial para começar.</CardDescription>
+                </CardHeader>
+                <CardContent className="flex flex-col flex-grow">
+                    <div className="my-8 text-center">
+                        <p className="text-lg text-foreground/70 line-through">De R$ 197,90 por</p>
+                        <p className="font-headline text-5xl font-bold text-foreground">
+                            R$ 9<span className="text-4xl align-top">,90</span>
+                        </p>
+                        <p className="font-semibold text-foreground/80">(por mês)</p>
+                    </div>
+                    <div className="p-6 bg-background rounded-lg flex-grow">
+                        <h4 className="font-headline font-bold text-xl text-center">Acesso Essencial:</h4>
+                        <ul className="mt-4 space-y-2 text-left">
+                            {monthlyItems.map(item => (
+                                <li key={item} className="flex items-center gap-2">
+                                    <CheckCircle2 className="h-5 w-5 text-accent" />
+                                    <span>{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <a href="#" className="block mt-8">
+                        <Button size="lg" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform bg-accent text-accent-foreground hover:bg-accent/90">
+                            ASSINAR PLANO MENSAL
                         </Button>
                     </a>
                 </CardContent>
