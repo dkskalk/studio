@@ -163,7 +163,7 @@ export default function OfferSection() {
                   QUERO ESTA OFERTA AGORA!
                 </Button>
               </a>
-              <div className='text-center text-xs text-foreground/60 mt-2 space-y-2'>
+              <div className='text-center text-xs text-foreground/60 mt-2 space-y-1'>
                 <p>Essa oferta não aparecerá novamente caso termine ou caso seja fechada.</p>
                 <a href="#" onClick={(e) => { e.preventDefault(); setShowSpecialOffer(false); }} className="underline hover:text-foreground">
                   Não, obrigado. Quero seguir com a assinatura mensal.
