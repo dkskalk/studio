@@ -3,7 +3,7 @@ import { Badge } from '@/components/ui/badge';
 
 export default function ProblemSection() {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section className="py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
             <Badge variant="secondary">Seu filho não dorme?</Badge>
