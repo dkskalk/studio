@@ -34,7 +34,7 @@ export default function OfferSection() {
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
             {/* Monthly Plan */}
-            <Card className="bg-primary/20 shadow-lg border-primary/30">
+            <Card className="bg-primary/20 shadow-lg border-primary/30 transition-all hover:scale-105">
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl">Assinatura Mensal</CardTitle>
                     <CardDescription>Acesso essencial para começar.</CardDescription>
@@ -59,7 +59,7 @@ export default function OfferSection() {
                         </ul>
                     </div>
                     <a href="#" className="block mt-8">
-                        <Button size="lg" variant="secondary" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform bg-accent text-accent-foreground hover:bg-accent/90">
+                        <Button size="lg" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform bg-accent text-accent-foreground hover:bg-accent/90">
                             ASSINAR PLANO MENSAL
                         </Button>
                     </a>
@@ -67,7 +67,7 @@ export default function OfferSection() {
             </Card>
 
             {/* Lifetime Plan - Highlighted */}
-            <Card className="bg-accent/10 shadow-2xl border-2 border-accent/50 shadow-accent/20 transition-all hover:shadow-accent/30 neon-glow-accent relative">
+            <Card className="bg-accent/10 shadow-2xl border-2 border-accent/50 shadow-accent/20 transition-all hover:shadow-accent/30 neon-glow-accent relative hover:scale-105">
                 <Badge className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground">Mais Popular</Badge>
                 <CardHeader>
                     <CardTitle className="font-headline text-2xl">Acesso Vitalício</CardTitle>
