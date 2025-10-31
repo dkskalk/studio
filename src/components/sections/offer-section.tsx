@@ -138,7 +138,7 @@ export default function OfferSection() {
             <AlertDialogTitle className="font-headline text-3xl text-center text-yellow-400 flex items-center justify-center gap-2">
               <AlertTriangle className="h-8 w-8" /> OFERTA ÚNICA!
             </AlertDialogTitle>
-            <AlertDialogDescription className="text-center text-lg text-foreground/90">
+            <AlertDialogDescription className="text-center text-lg text-foreground/90 mt-2">
               Parabéns! Você acabou de receber uma condição especial, aproveite pois essa oferta não aparecerá novamente.
             </AlertDialogDescription>
           </AlertDialogHeader>
@@ -157,7 +157,7 @@ export default function OfferSection() {
             <SpecialOfferCountdown duration={120} onExpire={() => setShowSpecialOffer(false)} />
           </div>
 
-          <AlertDialogFooter className="flex-col gap-2 mt-4 items-center">
+          <AlertDialogFooter className="sm:justify-center flex-col gap-2 mt-4 items-center">
               <a href="#" className="w-full">
                 <Button size="lg" className="w-full h-14 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg animate-pulse">
                   QUERO ESTA OFERTA AGORA!
