@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import Logo from './logo';
 import { cn } from '@/lib/utils';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 const navLinks = [
   { name: 'Início', href: '#inicio' },
@@ -48,40 +49,43 @@ export default function Header() {
             </a>
           ))}
         </nav>
-        <div className="md:hidden">
-          <Sheet open={open} onOpenChange={setOpen}>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
-                <span className="sr-only">Abrir menu</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right" className="w-[280px] bg-background p-0">
-              <div className="flex flex-col h-full">
-                <div className="flex items-center justify-between p-4 border-b">
-                  <Logo />
-                  <SheetTrigger asChild>
-                     <Button variant="ghost" size="icon">
-                        <X className="h-6 w-6" />
-                        <span className="sr-only">Fechar menu</span>
-                      </Button>
-                  </SheetTrigger>
+        <div className="flex items-center gap-2">
+           <ThemeToggle />
+          <div className="md:hidden">
+            <Sheet open={open} onOpenChange={setOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon">
+                  <Menu className="h-6 w-6" />
+                  <span className="sr-only">Abrir menu</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[280px] bg-background p-0">
+                <div className="flex flex-col h-full">
+                  <div className="flex items-center justify-between p-4 border-b">
+                    <Logo />
+                    <SheetTrigger asChild>
+                       <Button variant="ghost" size="icon">
+                          <X className="h-6 w-6" />
+                          <span className="sr-only">Fechar menu</span>
+                        </Button>
+                    </SheetTrigger>
+                  </div>
+                  <nav className="flex flex-col gap-4 p-4">
+                    {navLinks.map((link) => (
+                      <a
+                        key={link.name}
+                        href={link.href}
+                        className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground"
+                        onClick={() => setOpen(false)}
+                      >
+                        {link.name}
+                      </a>
+                    ))}
+                  </nav>
                 </div>
-                <nav className="flex flex-col gap-4 p-4">
-                  {navLinks.map((link) => (
-                    <a
-                      key={link.name}
-                      href={link.href}
-                      className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground"
-                      onClick={() => setOpen(false)}
-                    >
-                      {link.name}
-                    </a>
-                  ))}
-                </nav>
-              </div>
-            </SheetContent>
-          </Sheet>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
       </div>
     </header>

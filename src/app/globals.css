@@ -9,6 +9,34 @@ html {
 
 @layer base {
   :root {
+    --background: 240 10% 98%; /* Light Gray */
+    --foreground: 222 47% 11%; /* Night Blue */
+    --card: 240 10% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 240 10% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 250 50% 60%; /* Lavender */
+    --primary-foreground: 220 20% 10%;
+    --secondary: 240 10% 95%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 240 5% 90%;
+    --muted-foreground: 240 5% 45%;
+    --accent: 145 60% 45%; /* Vibrant Green */
+    --accent-foreground: 240 10% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 240 5% 85%;
+    --input: 240 5% 85%;
+    --ring: 250 50% 50%;
+    --radius: 0.8rem;
+    --chart-1: 145 60% 45%;
+    --chart-2: 250 60% 70%;
+    --chart-3: 220 50% 60%;
+    --chart-4: 200 80% 65%;
+    --chart-5: 260 70% 75%;
+  }
+
+  .dark {
     --background: 222 47% 11%; /* Night Blue */
     --foreground: 220 20% 90%; /* Light Gray */
     --card: 222 40% 15%;
@@ -28,34 +56,6 @@ html {
     --border: 222 40% 25%;
     --input: 222 40% 25%;
     --ring: 145 60% 55%;
-    --radius: 0.8rem;
-    --chart-1: 145 60% 45%;
-    --chart-2: 250 60% 70%;
-    --chart-3: 220 50% 60%;
-    --chart-4: 200 80% 65%;
-    --chart-5: 260 70% 75%;
-  }
-
-  .dark {
-    --background: 222 47% 11%;
-    --foreground: 220 20% 90%;
-    --card: 222 40% 15%;
-    --card-foreground: 220 20% 90%;
-    --popover: 222 47% 11%;
-    --popover-foreground: 220 20% 90%;
-    --primary: 250 50% 30%;
-    --primary-foreground: 220 20% 98%;
-    --secondary: 222 40% 20%;
-    --secondary-foreground: 220 20% 98%;
-    --muted: 222 40% 25%;
-    --muted-foreground: 220 15% 65%;
-    --accent: 145 60% 45%;
-    --accent-foreground: 222 47% 11%;
-    --destructive: 0 63% 31%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 222 40% 25%;
-    --input: 222 40% 25%;
-    --ring: 145 60% 55%;
   }
 }
 
@@ -65,7 +65,9 @@ html {
   }
   body {
     @apply bg-background text-foreground;
-    background-image: url('https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F354972e38c9d05e3f4358a9c402170cc.png?alt=media&token=48c8b422-9014-419a-9e5c-20593b4d8d17');
+  }
+  .dark body {
+     background-image: url('https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F354972e38c9d05e3f4358a9c402170cc.png?alt=media&token=48c8b422-9014-419a-9e5c-20593b4d8d17');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
