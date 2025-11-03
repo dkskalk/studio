@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <Link href="#inicio">
       <span className="text-xl font-bold font-headline text-foreground tracking-tight">
-        Neurohipnose Infantil<span className="text-gray-400">™</span>
+        NeuroSoninho<span className="text-gray-400">™</span>
       </span>
     </Link>
   );

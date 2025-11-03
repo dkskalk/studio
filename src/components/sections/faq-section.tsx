@@ -12,7 +12,7 @@ import {
     },
     {
       question: "O método é seguro para meu filho?",
-      answer: "Sim, o método Neurohipnose Infantil™ é 100% seguro e foi desenvolvido com base em princípios da neurociência e psicologia do sono. Os áudios utilizam frequências sonoras e narrativas que induzem o relaxamento de forma natural, sem qualquer efeito colateral.",
+      answer: "Sim, o método NeuroSoninho™ é 100% seguro e foi desenvolvido com base em princípios da neurociência e psicologia do sono. Os áudios utilizam frequências sonoras e narrativas que induzem o relaxamento de forma natural, sem qualquer efeito colateral.",
     },
     {
       question: "A partir de que idade posso usar o método?",
