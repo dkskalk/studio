@@ -133,7 +133,7 @@ export default function OfferSection() {
       </section>
 
       <AlertDialog open={showSpecialOffer} onOpenChange={setShowSpecialOffer}>
-        <AlertDialogContent className="bg-background border-yellow-400 shadow-yellow-400/30" style={{boxShadow: '0 0 15px hsl(var(--ring)), 0 0 20px hsl(var(--ring) / 0.8)'}}>
+        <AlertDialogContent className="bg-yellow-500/10 border-yellow-400 shadow-yellow-400/30" style={{boxShadow: '0 0 15px hsl(var(--ring)), 0 0 20px hsl(var(--ring) / 0.8)'}}>
           <AlertDialogHeader>
             <AlertDialogTitle className="font-headline text-3xl text-center text-yellow-400 flex items-center justify-center gap-2">
               <AlertTriangle className="h-8 w-8" /> OFERTA ÚNICA!
