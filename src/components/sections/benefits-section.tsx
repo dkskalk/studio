@@ -25,7 +25,7 @@ export default function BenefitsSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">
-            As 3 descobertas do NeuroSoninho que vão mudar a sua vida
+            As 3 descobertas do NeuroHipnose Infantil que vão mudar a sua vida
           </h2>
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">

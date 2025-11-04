@@ -7,13 +7,13 @@ import { ThemeProvider } from '@/components/theme-provider';
 const ogImage = PlaceHolderImages.find(img => img.id === 'og-image');
 
 export const metadata: Metadata = {
-  title: 'Método NeuroSoninho™ - Faça seu filho dormir em 20 minutos',
+  title: 'Método NeuroHipnose Infantil™ - Faça seu filho dormir em 20 minutos',
   description: 'Descubra como fazer seu filho hiperativo adormecer em até 20 minutos com o Protocolo de Ondas Delta Induzidas. Transforme suas noites e a vida da sua família.',
   openGraph: {
-    title: 'Método NeuroSoninho™ - Faça seu filho dormir em 20 minutos',
+    title: 'Método NeuroHipnose Infantil™ - Faça seu filho dormir em 20 minutos',
     description: 'A solução definitiva para as noites em claro. Um método cientificamente comprovado para acalmar e induzir o sono em crianças da era pós-digital.',
     url: 'https://neurohipno-landing.com', // Replace with your actual domain
-    siteName: 'NeuroSoninho',
+    siteName: 'NeuroHipnose Infantil',
     images: ogImage ? [
       {
         url: ogImage.imageUrl,
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Método NeuroSoninho™ - Faça seu filho dormir em 20 minutos',
+    title: 'Método NeuroHipnose Infantil™ - Faça seu filho dormir em 20 minutos',
     description: 'Descubra como fazer seu filho hiperativo adormecer em até 20 minutos com o Protocolo de Ondas Delta Induzidas.',
     images: ogImage ? [ogImage.imageUrl] : [],
   },

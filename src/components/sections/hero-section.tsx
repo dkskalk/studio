@@ -20,9 +20,9 @@ export default function HeroSection() {
       </div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <p className="font-semibold text-accent">NeuroSoninho™</p>
+        <p className="font-semibold text-accent">NeuroHipnose Infantil™</p>
         <h1 className="font-headline text-3xl md:text-5xl font-bold tracking-tighter text-foreground mt-2 text-balance">
-            Tudo o Que Você Quer é Voltar a Dormir a Noite - Faça Seu Filho dormir Em 20 Minutos com a NeuroSoninho™
+            Tudo o Que Você Quer é Voltar a Dormir a Noite - Faça Seu Filho dormir Em 20 Minutos com a NeuroHipnose Infantil™
         </h1>
         
         <div className="mt-10 max-w-3xl mx-auto">
