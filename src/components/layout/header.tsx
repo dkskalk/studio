@@ -51,7 +51,7 @@ export default function Header() {
         </nav>
         <div className="flex items-center gap-2">
            <ThemeToggle />
-           <a href="#oferta">
+           <a href="#cta-vitalicio">
             <Button className="hidden md:inline-flex bg-accent text-accent-foreground hover:bg-accent/90">Comprar Agora</Button>
            </a>
           <div className="md:hidden">
@@ -84,7 +84,7 @@ export default function Header() {
                         {link.name}
                       </a>
                     ))}
-                    <a href="#oferta" onClick={() => setOpen(false)}>
+                    <a href="#cta-vitalicio" onClick={() => setOpen(false)}>
                       <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">Comprar Agora</Button>
                     </a>
                   </nav>
