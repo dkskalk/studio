@@ -10,7 +10,7 @@ const guarantees = [
     description: 'Se você comprar o método e, por QUALQUER motivo, nos primeiros 7 dias não sentir confiança, não gostar do tom de voz, ou simplesmente mudar de ideia, é só enviar um e-mail. Devolvemos 100% do seu investimento, sem perguntas e sem burocracia. O risco é todo nosso.',
     image: {
       id: 'guarantee-unconditional',
-      url: 'https://images.unsplash.com/photo-1694693715872-c25db9203075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnb2xkZW4lMjBsb2NrJTIwY2FsZW5kYXJ8ZW58MHx8fHwxNzYyMzA0NDM3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      url: 'https://images.unsplash.com/photo-1610888662651-05dbdec7cfae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnb2xkZW4lMjBsb2NrJTIwY2FsZW5kYXJ8ZW58MHx8fHwxNzYyMzA0NDM3fDA&ixlib=rb-4.1.0&q=80&w=1080',
       hint: 'golden lock calendar'
     }
   },
@@ -21,7 +21,7 @@ const guarantees = [
     description: 'Siga o Método de Rotina e Transformação por 30 dias. Se, ao final desse período, você tiver aplicado todas as técnicas e não notar uma transformação significativa, eu não só devolvo 100% do seu investimento, como te dou o mesmo valor de bônus. Você só precisa provar que aplicou.',
     image: {
         id: 'guarantee-conditional',
-        url: 'https://images.unsplash.com/photo-1589890378093-76585c905570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aG91cmdsYXNzJTIwY2hlY2ttYXJrfGVufDB8fHx8MTc2MjMwNDQzMnww&ixlib=rb-4.1.0&q=80&w=1080',
+        url: 'https://images.unsplash.com/photo-1651045858641-2289291a863d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxob3VyZ2xhc3MlMjBjaGVja21hcmt8ZW58MHx8fHwxNzYyMzA0NDMyfDA&ixlib=rb-4.1.0&q=80&w=1080',
         hint: 'hourglass checkmark'
     }
   },
@@ -32,7 +32,7 @@ const guarantees = [
     description: 'Sabemos que a maior barreira é a aplicação. Se você se sentir travada, confusa ou desmotivada, você não estará sozinha. Terá acesso ao nosso canal de suporte e acompanhamento para que NÃO HAJA DESCULPAS para não ter o resultado. Nós garantimos que o problema não será a falta de apoio.',
     image: {
         id: 'guarantee-support',
-        url: 'https://images.unsplash.com/photo-1602084493516-7fbbdccaa812?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdXBwb3J0JTIwaGFuZHN8ZW58MHx8fHwxNzYyMzA0NDMzfDA&ixlib=rb-4.1.0&q=80&w=1080',
+        url: 'https://images.unsplash.com/photo-1580892543399-a3465a14be13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdXBwb3J0JTIwaGFuZHN8ZW58MHx8fHwxNzYyMzA0NDMzfDA&ixlib=rb-4.1.0&q=80&w=1080',
         hint: 'support hands'
     }
   }
