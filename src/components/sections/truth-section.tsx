@@ -8,7 +8,7 @@ export default function TruthSection() {
         <div className="max-w-3xl mx-auto">
           <Card className="bg-accent/10 border-2 border-accent/30 shadow-2xl shadow-accent/20 text-center neon-glow-accent">
             <CardHeader className="items-center">
-                <div className="p-4 bg-accent/20 rounded-full border-2 border-accent/30 neon-glow-accent">
+                <div className="p-4 bg-white rounded-full border-2 border-accent/30 neon-glow-accent">
                     <Lightbulb className="h-10 w-10 text-accent animate-blink" />
                 </div>
               <CardTitle className="font-headline text-2xl md:text-3xl font-bold pt-4">
