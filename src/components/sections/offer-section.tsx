@@ -15,6 +15,7 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog"
 import SpecialOfferCountdown from '@/components/ui/special-offer-countdown';
+import { Progress } from '@/components/ui/progress';
 
 
 const lifetimeItems = [
@@ -141,6 +142,13 @@ export default function OfferSection() {
             <div className="text-center mt-2">
               <p className="font-semibold text-destructive/80">Esta oferta expira em:</p>
               <SpecialOfferCountdown duration={120} onExpire={() => setShowSpecialOffer(false)} />
+            </div>
+            <div className="mt-2 text-center">
+                <p className="font-semibold text-foreground/80">Assinaturas disponíveis:</p>
+                <div className="flex items-center gap-2 justify-center">
+                    <Progress value={(192/200)*100} className="w-2/3 h-3 bg-primary/30" />
+                    <p className="font-bold text-lg">8/200</p>
+                </div>
             </div>
             <AlertDialogDescription className="text-center text-lg text-foreground/90 mt-2">
               Parabéns! Você acabou de receber uma condição especial. Oferta limitada a 200 assinaturas.
