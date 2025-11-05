@@ -26,7 +26,7 @@ export default function CreatorSection() {
                         </h2>
                         <div className="mt-8 text-foreground/80 space-y-4 text-balance">
                            <p className="font-bold text-xl text-foreground">Dra. Laura Menezes</p>
-                           <p className="font-semibold text-primary">Psicóloga e Idealizadora do Método Neurohipnose Infantil™</p>
+                           <p className="font-semibold text-foreground">Psicóloga e Idealizadora do Método Neurohipnose Infantil™</p>
                            
                            <p>Com mais de 15 anos de experiência em psicologia clínica e estudos avançados sobre neurociência e comportamento infantil, Dra. Laura Menezes tornou-se referência no atendimento de crianças com distúrbios de sono, ansiedade e hiperatividade. Formada em Psicologia pela Universidade de São Paulo (USP), com especialização em Neuropsicologia e Terapias de Reprogramação Mental, ela sempre acreditou que o sono é a base do equilíbrio emocional infantil.</p>
 
