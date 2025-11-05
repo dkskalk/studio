@@ -27,7 +27,6 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-6 text-sm">
               <button onClick={() => setIsPrivacyOpen(true)} className="text-foreground/70 hover:text-foreground hover:underline">Política de Privacidade</button>
-              <button className="text-foreground/70 hover:text-foreground hover:underline">Termos de Uso</button>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t text-center text-xs text-foreground/60">
