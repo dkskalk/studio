@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export default function TruthSection() {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section className="pt-20 pb-10 md:pt-28 md:pb-14 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto">
           <Card className="bg-accent/10 border-2 border-accent/30 shadow-2xl shadow-accent/20 text-center neon-glow-accent">
