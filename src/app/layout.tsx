@@ -3,6 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ThemeProvider } from '@/components/theme-provider';
+import CookieConsent from '@/components/ui/cookie-consent';
 
 const ogImage = PlaceHolderImages.find(img => img.id === 'og-image');
 
@@ -55,6 +56,7 @@ export default function RootLayout({
         >
           {children}
           <Toaster />
+          <CookieConsent />
         </ThemeProvider>
       </body>
     </html>
