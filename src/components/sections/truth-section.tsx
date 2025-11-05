@@ -6,7 +6,7 @@ export default function TruthSection() {
     <section className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto">
-          <Card className="bg-primary/20 border-2 border-primary/50 shadow-2xl shadow-primary/20 text-center">
+          <Card className="bg-accent/10 border-2 border-accent/30 shadow-2xl shadow-accent/20 text-center neon-glow-accent">
             <CardHeader className="items-center">
                 <div className="p-4 bg-accent/20 rounded-full border-2 border-accent/30 neon-glow-accent">
                     <Lightbulb className="h-10 w-10 text-accent animate-blink" />
