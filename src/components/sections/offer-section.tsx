@@ -43,9 +43,8 @@ export default function OfferSection() {
   const progressValue = ((totalSubscriptions - availableSubs) / totalSubscriptions) * 100;
   
   useEffect(() => {
-    let viewersTimeout: NodeJS.Timeout;
-    let subsTimeout: NodeJS.Timeout;
-    let viewersTimeout2: NodeJS.Timeout;
+    const timeouts: NodeJS.Timeout[] = [];
+    let viewersInterval: NodeJS.Timeout;
 
     if (showSpecialOffer) {
       // Reset state when modal opens
@@ -53,26 +52,50 @@ export default function OfferSection() {
       setShowViewers(false);
       setViewersCount(0);
 
-      viewersTimeout = setTimeout(() => {
+      // --- Initial Scripted Events ---
+
+      // At 5s: Show 3 viewers for 3s
+      timeouts.push(setTimeout(() => {
         setViewersCount(3);
         setShowViewers(true);
-      }, 5000);
-
-      subsTimeout = setTimeout(() => {
+        timeouts.push(setTimeout(() => setShowViewers(false), 3000));
+      }, 5000));
+      
+      // At 10s: Update subscription count
+      timeouts.push(setTimeout(() => {
         setAvailableSubs(7);
-        setShowViewers(false); // Hide after sub count updates
-      }, 10000);
+      }, 10000));
 
-      viewersTimeout2 = setTimeout(() => {
+      // At 20s: Show 6 viewers for 3s
+      timeouts.push(setTimeout(() => {
         setViewersCount(6);
         setShowViewers(true);
-      }, 20000);
+        timeouts.push(setTimeout(() => setShowViewers(false), 3000));
+      }, 20000));
+
+      // --- Recurring Random Events ---
+
+      // After 27s, start the recurring notification
+      timeouts.push(setTimeout(() => {
+        const showRandomViewers = () => {
+          const randomViewers = Math.floor(Math.random() * 4) + 2; // Random number between 2 and 5
+          setViewersCount(randomViewers);
+          setShowViewers(true);
+          timeouts.push(setTimeout(() => setShowViewers(false), 3000)); // Hide after 3 seconds
+        };
+        
+        showRandomViewers(); // Show immediately at 27s
+        viewersInterval = setInterval(showRandomViewers, 13000); // Repeat every 13s
+
+      }, 27000));
     }
 
+    // Cleanup function to clear all timeouts and intervals
     return () => {
-      clearTimeout(viewersTimeout);
-      clearTimeout(subsTimeout);
-      clearTimeout(viewersTimeout2);
+      timeouts.forEach(clearTimeout);
+      if (viewersInterval) {
+        clearInterval(viewersInterval);
+      }
     };
   }, [showSpecialOffer]);
 
