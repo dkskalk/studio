@@ -8,7 +8,7 @@ import {
   const faqs = [
     {
       question: "Como vou receber minha compra?",
-      answer: "Assim que efetuar o pagamento, receberá em seu email um link para direcionamento para uma área de membros com todo conteúdo do curso disponível.",
+      answer: "Assim que efetuar o pagamento, receberá em seu email um link direcionando para uma área de membros com todo conteúdo do curso disponível, de acordo com o seu plano.",
     },
     {
       question: "O método é seguro para meu filho?",
