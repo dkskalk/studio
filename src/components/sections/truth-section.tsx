@@ -31,7 +31,6 @@ export default function TruthSection() {
                   QUERO A SOLUÇÃO COMPROVADA
                 </Button>
             </a>
-            <p className="text-sm mt-2 text-foreground/70">Clique no botão acima para continuar</p>
           </div>
         </div>
       </div>
