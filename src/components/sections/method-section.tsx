@@ -32,25 +32,25 @@ const modules = [
 
 export default function MethodSection() {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center max-w-3xl mx-auto">
-            <Badge variant="outline">Conteúdo do método</Badge>
-            <h2 className="font-headline text-3xl md:text-4xl font-bold mt-2">
-                O que você vai receber
+        <div className="text-center max-w-4xl mx-auto">
+            <Badge variant="outline" className="text-base px-6 py-2">Conteúdo do método</Badge>
+            <h2 className="font-headline text-4xl md:text-5xl font-bold mt-4">
+                O que você vai receber ao garantir sua vaga
             </h2>
         </div>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {modules.map((module) => (
-            <Card key={module.title} className="flex flex-col text-center border-2 border-transparent shadow-lg bg-primary/20 neon-glow-primary transition-all duration-300 hover:scale-105 hover:shadow-accent/20">
+            <Card key={module.title} className="flex flex-col text-center border-2 border-transparent shadow-lg bg-primary/20 neon-glow-primary transition-all duration-300 hover:scale-105 hover:shadow-accent/20 p-4">
               <CardHeader className="items-center">
-                <div className="bg-primary/50 rounded-full p-3 w-fit">
+                <div className="bg-primary/50 rounded-full p-4 w-fit">
                     {module.icon}
                 </div>
-                <CardTitle className="font-headline text-xl pt-2">{module.title}</CardTitle>
+                <CardTitle className="font-headline text-2xl pt-4">{module.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <p className="text-sm text-foreground/80">{module.description}</p>
+                <p className="text-base text-foreground/80">{module.description}</p>
               </CardContent>
             </Card>
           ))}
