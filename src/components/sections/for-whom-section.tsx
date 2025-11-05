@@ -2,7 +2,7 @@ import { Check, X } from 'lucide-react';
 
 export default function ForWhomSection() {
   return (
-    <section id="para-quem" className="py-20 md:py-28 bg-background">
+    <section id="para-quem" className="pt-10 pb-20 md:pt-14 md:pb-28 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-accent/10 border border-accent/20 p-8 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-accent/20">
