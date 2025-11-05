@@ -152,7 +152,7 @@ export default function OfferSection() {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
               {/* Lifetime Plan - Highlighted */}
-              <Card className="bg-accent/10 shadow-2xl border-2 border-accent/50 shadow-accent/20 transition-all hover:shadow-accent/30 neon-glow-accent relative hover:scale-105 flex flex-col">
+              <Card id="cta-vitalicio" className="bg-accent/10 shadow-2xl border-2 border-accent/50 shadow-accent/20 transition-all hover:shadow-accent/30 neon-glow-accent relative hover:scale-105 flex flex-col">
                   <Badge className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground">Mais Popular</Badge>
                   <CardHeader>
                       <CardTitle className="font-headline text-2xl">Acesso Vitalício</CardTitle>
@@ -178,7 +178,7 @@ export default function OfferSection() {
                           </ul>
                       </div>
                       <a href="#" className="block mt-8">
-                          <Button size="lg" className="w-full h-16 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform animate-pulse">
+                          <Button id="cta-button-vitalicio" size="lg" className="w-full h-16 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform animate-pulse">
                               QUERO ACESSO VITALÍCIO!
                           </Button>
                       </a>
@@ -217,7 +217,7 @@ export default function OfferSection() {
                           </ul>
                       </div>
                       <a href="#" onClick={handleMonthlyOfferClick} className="block mt-8">
-                          <Button size="lg" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform bg-accent text-accent-foreground hover:bg-accent/90">
+                          <Button id="cta-button-mensal" size="lg" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform bg-accent text-accent-foreground hover:bg-accent/90">
                               ASSINAR PLANO MENSAL
                           </Button>
                       </a>
@@ -278,7 +278,7 @@ export default function OfferSection() {
                 </Button>
               </a>
               <div className='text-center text-xs text-foreground/60 mt-2 space-y-1'>
-                <a href="#" onClick={(e) => { e.preventDefault(); setShowSpecialOffer(false); }} className="underline hover:text-foreground">
+                <a href="#" onClick={(e) => { e.preventDefault(); document.getElementById('cta-button-mensal')?.click(); setShowSpecialOffer(false); }} className="underline hover:text-foreground">
                   Não, obrigado. Quero seguir com a assinatura mensal.
                 </a>
               </div>

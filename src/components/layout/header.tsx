@@ -51,6 +51,9 @@ export default function Header() {
         </nav>
         <div className="flex items-center gap-2">
            <ThemeToggle />
+           <a href="#oferta">
+            <Button className="hidden md:inline-flex bg-accent text-accent-foreground hover:bg-accent/90">Comprar Agora</Button>
+           </a>
           <div className="md:hidden">
             <Sheet open={open} onOpenChange={setOpen}>
               <SheetTrigger asChild>
@@ -81,6 +84,9 @@ export default function Header() {
                         {link.name}
                       </a>
                     ))}
+                    <a href="#oferta" onClick={() => setOpen(false)}>
+                      <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">Comprar Agora</Button>
+                    </a>
                   </nav>
                 </div>
               </SheetContent>
