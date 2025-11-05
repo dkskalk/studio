@@ -25,7 +25,7 @@ export default function TruthSection() {
               </p>
             </CardContent>
           </Card>
-          <div className="mt-12 text-center">
+          <div className="mt-16 text-center">
             <a href="#oferta">
                 <Button size="lg" className="w-full md:w-auto bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform h-14 animate-pulse">
                   PRECISO VOLTAR A DORMIR
