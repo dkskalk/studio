@@ -26,11 +26,11 @@ export default function Home() {
         <TruthSection />
         <ForWhomSection />
         <TestimonialsSection />
-        <CreatorSection />
         <MethodSection />
         <OfferSection />
         <GuaranteeSection />
         <FinalCallSection />
+        <CreatorSection />
         <FaqSection />
       </main>
       <Footer />
