@@ -9,8 +9,8 @@ export default function FloatingCta() {
     const [viewers, setViewers] = useState(0);
 
     const showNotification = () => {
-        // Generate a random number between 3 and 28
-        const randomViewers = Math.floor(Math.random() * (28 - 3 + 1)) + 3;
+        // Generate a random number between 17 and 48
+        const randomViewers = Math.floor(Math.random() * (48 - 17 + 1)) + 17;
         setViewers(randomViewers);
         setIsVisible(true);
 
@@ -44,7 +44,7 @@ export default function FloatingCta() {
         )}>
             <div className="bg-background/80 backdrop-blur-sm border border-foreground/20 rounded-lg px-4 py-3 text-sm flex items-center gap-3 shadow-lg animate-fade-in-up">
                 <Eye className="h-5 w-5 text-accent animate-pulse" />
-                <p><span className="font-bold">{viewers}</span> pessoas estão vendo este método agora.</p>
+                <p><span className="font-bold">{viewers}</span> Mães com você nesse momento.</p>
             </div>
         </div>
     );
