@@ -12,6 +12,7 @@ import Header from '@/components/layout/header';
 import ForWhomSection from '@/components/sections/for-whom-section';
 import FaqSection from '@/components/sections/faq-section';
 import FloatingCta from '@/components/ui/floating-cta';
+import CreatorSection from '@/components/sections/creator-section';
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <TruthSection />
         <ForWhomSection />
         <TestimonialsSection />
+        <CreatorSection />
         <MethodSection />
         <OfferSection />
         <GuaranteeSection />

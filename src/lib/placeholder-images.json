@@ -44,27 +44,33 @@
     },
     {
       "id": "testimonial-laura",
-      "description": "A mother gently holding her daughter.",
-      "imageUrl": "https://images.unsplash.com/photo-1621992128099-4a991443585c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb3RoZXIlMjBkYXVnaHRlcnxlbnwwfHx8fDE3NjE2MTM3MjJ8MA&ixlib=rb-4.1.0&q=80&w=200",
+      "description": "A mother and daughter smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1551498624-3712f8e41930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb3RoZXIlMjBkYXVnaHRlcnxlbnwwfHx8fDE3NjIyMDYxNjR8MA&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "mother daughter"
     },
     {
       "id": "testimonial-beatriz",
-      "description": "A mother smiling outdoors.",
-      "imageUrl": "https://images.unsplash.com/photo-1598207951491-255eaf139943?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3RoZXIlMjBvdXRkb29yfGVufDB8fHx8MTc2MTYxMzc1Mnww&ixlib=rb-4.1.0&q=80&w=200",
+      "description": "A mother outdoors smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1637878254368-bbfd27555aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3RoZXIlMjBvdXRkb29yfGVufDB8fHx8MTc2MjIxOTY0Mnww&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "mother outdoor"
     },
     {
       "id": "testimonial-gabriela",
-      "description": "A joyful person with a candid smile.",
-      "imageUrl": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjE2MTM3ODF8MA&ixlib=rb-4.1.0&q=80&w=200",
+      "description": "A happy person smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjIxNjI4OTN8MA&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "happy person"
     },
     {
       "id": "og-image",
-      "description": "A serene image of a sleeping child.",
-      "imageUrl": "https://images.unsplash.com/photo-1530455623052-e8441ae826f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbGVlcGluZyUyMGNoaWxkfGVufDB8fHx8MTc2MTYxNzczOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sleeping child"
+      "description": "A child sleeping peacefully in a bed with soft lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1484411993245-c4740b20509a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMHNsZWVwaW5nJTIwYmVkfGVufDB8fHx8MTc2MjE4ODU2OXww&ixlib=rb-4.1.0&q=80&w=1200",
+      "imageHint": "child sleeping"
+    },
+    {
+      "id": "dra-laura",
+      "description": "Portrait of Dra. Laura Menezes, a smiling woman in her 40s with a professional and friendly look.",
+      "imageUrl": "https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F3ea2195f1bd171be9b1689b0d1e573e8.png?alt=media&token=4a594833-875f-4a6c-9a4f-56a5c13e5361",
+      "imageHint": "woman doctor"
     }
   ]
 }
