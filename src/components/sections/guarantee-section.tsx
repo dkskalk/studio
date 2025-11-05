@@ -14,7 +14,7 @@ const guarantees = [
   {
     icon: <TrendingUp className="h-6 w-6 text-blue-300" />,
     title: 'Resultados Comprovados',
-    description: 'Mais de 10.000 clientes já transformaram seus resultados com nosso sistema validado.',
+    description: 'Mais de 5.000 mãe já transformaram o sono de seus filhos e conseguiram noites de paz e tranquilidade novamente.',
     tag: 'Garantia #2 - Eficácia Testada',
     color: 'blue'
   },
