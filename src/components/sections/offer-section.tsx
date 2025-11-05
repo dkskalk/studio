@@ -189,7 +189,7 @@ export default function OfferSection() {
               <Card className="bg-primary/20 shadow-lg border-primary/30 transition-all hover:scale-105 flex flex-col">
                   <CardHeader>
                       <CardTitle className="font-headline text-2xl">Assinatura Mensal</CardTitle>
-                      <CardDescription>Acesso essencial para começar.</CardDescription>
+                      <CardDescription>Acesso essencial para começar. Cancele quando quiser, sem burocracia.</CardDescription>
                   </CardHeader>
                   <CardContent className="flex flex-col flex-grow">
                       <div className="my-8 text-center">
