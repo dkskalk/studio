@@ -1,5 +1,6 @@
 import { Lightbulb } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 export default function TruthSection() {
   return (
@@ -24,6 +25,14 @@ export default function TruthSection() {
               </p>
             </CardContent>
           </Card>
+          <div className="mt-12 text-center">
+            <a href="#oferta">
+                <Button size="lg" className="w-full md:w-auto bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform h-14 animate-pulse">
+                  QUERO A SOLUÇÃO COMPROVADA
+                </Button>
+            </a>
+            <p className="text-sm mt-2 text-foreground/70">Clique no botão acima para continuar</p>
+          </div>
         </div>
       </div>
     </section>
