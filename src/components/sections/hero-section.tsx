@@ -3,7 +3,7 @@ import { Moon, Star } from 'lucide-react';
 
 export default function HeroSection() {
   return (
-    <section id="inicio" className="relative overflow-hidden bg-gradient-to-b from-primary/30 to-transparent pt-28 pb-20 text-center">
+    <section id="inicio" className="relative overflow-hidden bg-gradient-to-b from-primary/30 to-transparent pt-28 pb-12 text-center">
       
       {/* Decorative elements */}
       <div className="absolute top-10 left-10 text-foreground/10 opacity-50">
