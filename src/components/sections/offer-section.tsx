@@ -33,6 +33,11 @@ const monthlyItems = [
     'Guia de Rotina do Sono',
 ];
 
+const missingItems = [
+    'Bônus Exclusivos',
+    'Acesso Vitalício',
+];
+
 const totalSubscriptions = 200;
 
 export default function OfferSection() {
@@ -196,11 +201,17 @@ export default function OfferSection() {
                       </div>
                       <div className="p-6 bg-background rounded-lg flex-grow">
                           <h4 className="font-headline font-bold text-xl text-center">Acesso Essencial:</h4>
-                          <ul className="mt-4 space-y-2 text-left">
+                           <ul className="mt-4 space-y-2 text-left">
                               {monthlyItems.map(item => (
                                   <li key={item} className="flex items-center gap-2">
                                       <CheckCircle2 className="h-5 w-5 text-accent" />
                                       <span>{item}</span>
+                                  </li>
+                              ))}
+                              {missingItems.map(item => (
+                                  <li key={item} className="flex items-center gap-2 text-destructive/70">
+                                      <X className="h-5 w-5" />
+                                      <span className="line-through">{item}</span>
                                   </li>
                               ))}
                           </ul>
