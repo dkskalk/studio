@@ -139,7 +139,7 @@ export default function OfferSection() {
               <AlertTriangle className="h-8 w-8" /> OFERTA ÚNICA!
             </AlertDialogTitle>
             <AlertDialogDescription className="text-center text-lg text-foreground/90 mt-2">
-              Parabéns! Você acabou de receber uma condição especial, aproveite pois essa oferta não aparecerá novamente.
+              Parabéns! Você acabou de receber uma condição especial. Oferta limitada a 200 assinaturas. Disponiveis apenas 8 no momento.
             </AlertDialogDescription>
           </AlertDialogHeader>
           
