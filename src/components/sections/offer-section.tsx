@@ -1,10 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import Countdown from '@/components/ui/countdown';
-import { CheckCircle2, Lock, AlertTriangle, X } from 'lucide-react';
+import { CheckCircle2, Lock, AlertTriangle, X, Eye } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import {
   AlertDialog,
@@ -32,8 +32,40 @@ const monthlyItems = [
     'Guia de Rotina do Sono',
 ];
 
+const totalSubscriptions = 200;
+
 export default function OfferSection() {
   const [showSpecialOffer, setShowSpecialOffer] = useState(false);
+  const [availableSubs, setAvailableSubs] = useState(8);
+  const [showViewers, setShowViewers] = useState(false);
+
+  const progressValue = ((totalSubscriptions - availableSubs) / totalSubscriptions) * 100;
+  
+  useEffect(() => {
+    let viewersTimeout: NodeJS.Timeout;
+    let subsTimeout: NodeJS.Timeout;
+
+    if (showSpecialOffer) {
+      // Reset state when modal opens
+      setAvailableSubs(8);
+      setShowViewers(false);
+
+      viewersTimeout = setTimeout(() => {
+        setShowViewers(true);
+      }, 5000);
+
+      subsTimeout = setTimeout(() => {
+        setAvailableSubs(7);
+        setShowViewers(false); // Optionally hide viewers notification after update
+      }, 10000);
+    }
+
+    return () => {
+      clearTimeout(viewersTimeout);
+      clearTimeout(subsTimeout);
+    };
+  }, [showSpecialOffer]);
+
 
   const handleMonthlyOfferClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
@@ -146,8 +178,8 @@ export default function OfferSection() {
             <div className="mt-2 text-center">
                 <p className="font-semibold text-foreground/80">Assinaturas disponíveis:</p>
                 <div className="flex items-center gap-2 justify-center">
-                    <Progress value={96} className="w-2/3 h-3 bg-primary/30 border border-white/50" />
-                    <p className="font-bold text-lg">8/200</p>
+                    <Progress value={progressValue} className="w-2/3 h-3 bg-primary/30 border border-white/50" />
+                    <p className="font-bold text-lg">{availableSubs}/{totalSubscriptions}</p>
                 </div>
             </div>
             <AlertDialogDescription className="text-center text-lg text-foreground/90 mt-2">
@@ -181,6 +213,12 @@ export default function OfferSection() {
               <X className="h-5 w-5" />
               <span className="sr-only">Fechar</span>
             </button>
+            {showViewers && (
+                <div className="absolute bottom-4 left-4 bg-background/80 backdrop-blur-sm border border-foreground/20 rounded-lg px-3 py-2 text-sm flex items-center gap-2 shadow-lg animate-fade-in-up">
+                    <Eye className="h-5 w-5 text-accent animate-pulse" />
+                    <p><span className="font-bold">3</span> pessoas estão vendo esta oferta.</p>
+                </div>
+            )}
         </AlertDialogContent>
       </AlertDialog>
     </>
