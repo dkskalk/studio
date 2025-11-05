@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { ArrowRight, XCircle } from 'lucide-react';
+import { ArrowRight, CircleX } from 'lucide-react';
 
 export default function FinalCallSection() {
   return (
@@ -10,9 +10,9 @@ export default function FinalCallSection() {
             Você tem duas escolhas agora...
           </h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-            <div className="bg-destructive/10 border border-destructive/20 p-6 rounded-lg">
+            <div className="bg-destructive/10 border border-destructive/20 p-6 rounded-lg transition-all duration-300 hover:scale-105">
               <div className="flex items-start gap-3">
-                <XCircle className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
+                <CircleX className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-headline text-xl font-bold">Não fazer nada</h3>
                   <p className="mt-2 text-foreground/80">
@@ -21,7 +21,7 @@ export default function FinalCallSection() {
                 </div>
               </div>
             </div>
-            <div className="bg-accent/10 border border-accent/20 p-6 rounded-lg">
+            <div className="bg-accent/10 border-2 border-accent/30 p-6 rounded-lg neon-glow-accent transition-all duration-300 hover:scale-[1.07] hover:shadow-accent/30">
               <div className="flex items-start gap-3">
                 <ArrowRight className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
                 <div>
