@@ -7,7 +7,7 @@ const guarantees = [
   {
     icon: <DollarSign className="h-6 w-6 text-yellow-300" />,
     title: 'Reembolso Total',
-    description: 'Se não ficar satisfeito nos primeiros 30 dias, devolvemos 100% do seu investimento sem perguntas.',
+    description: '30 dias de garantia incondicional. Não gostou? Devolvemos 100% do seu investimento.',
     tag: 'Garantia #1 - Risco Zero',
     color: 'yellow'
   },
