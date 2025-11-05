@@ -81,6 +81,25 @@ export default function OfferSection() {
         timeouts.push(setTimeout(() => setShowViewers(false), 3000));
       }, 20000));
 
+      // At 1:08 left (52s elapsed): Update subscription count
+      timeouts.push(setTimeout(() => {
+        setAvailableSubs(6);
+        triggerSubsAnimation();
+      }, 52000));
+
+      // At 45s left (75s elapsed): Update subscription count
+      timeouts.push(setTimeout(() => {
+        setAvailableSubs(5);
+        triggerSubsAnimation();
+      }, 75000));
+
+      // At 15s left (105s elapsed): Update subscription count
+      timeouts.push(setTimeout(() => {
+        setAvailableSubs(3);
+        triggerSubsAnimation();
+      }, 105000));
+
+
       // --- Recurring Random Events ---
 
       // After 27s, start the recurring notification
