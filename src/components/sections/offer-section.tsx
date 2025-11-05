@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/alert-dialog"
 import SpecialOfferCountdown from '@/components/ui/special-offer-countdown';
 import { Progress } from '@/components/ui/progress';
+import { cn } from '@/lib/utils';
 
 
 const lifetimeItems = [
@@ -39,9 +40,15 @@ export default function OfferSection() {
   const [availableSubs, setAvailableSubs] = useState(8);
   const [showViewers, setShowViewers] = useState(false);
   const [viewersCount, setViewersCount] = useState(0);
+  const [animateSubs, setAnimateSubs] = useState(false);
 
   const progressValue = ((totalSubscriptions - availableSubs) / totalSubscriptions) * 100;
   
+  const triggerSubsAnimation = () => {
+    setAnimateSubs(true);
+    setTimeout(() => setAnimateSubs(false), 500); // Duration of the animation
+  }
+
   useEffect(() => {
     const timeouts: NodeJS.Timeout[] = [];
     let viewersInterval: NodeJS.Timeout;
@@ -64,6 +71,7 @@ export default function OfferSection() {
       // At 10s: Update subscription count
       timeouts.push(setTimeout(() => {
         setAvailableSubs(7);
+        triggerSubsAnimation();
       }, 10000));
 
       // At 20s: Show 6 viewers for 3s
@@ -212,7 +220,10 @@ export default function OfferSection() {
                 <p className="font-semibold text-foreground/80">Assinaturas disponíveis:</p>
                 <div className="flex items-center gap-2 justify-center">
                     <Progress value={progressValue} className="w-2/3 h-3 bg-primary/30 border border-white/50" />
-                    <p className="font-bold text-lg">{availableSubs}/{totalSubscriptions}</p>
+                    <p className={cn(
+                      "font-bold text-lg",
+                      animateSubs && "animate-pulse-scale"
+                    )}>{availableSubs}/{totalSubscriptions}</p>
                 </div>
             </div>
             <AlertDialogDescription className="text-center text-lg text-foreground/90 mt-2">
