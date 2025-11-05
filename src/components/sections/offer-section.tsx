@@ -146,7 +146,7 @@ export default function OfferSection() {
             <div className="mt-2 text-center">
                 <p className="font-semibold text-foreground/80">Assinaturas disponíveis:</p>
                 <div className="flex items-center gap-2 justify-center">
-                    <Progress value={(192/200)*100} className="w-2/3 h-3 bg-primary/30" />
+                    <Progress value={96} className="w-2/3 h-3 bg-primary/30 border border-white/50" />
                     <p className="font-bold text-lg">8/200</p>
                 </div>
             </div>
