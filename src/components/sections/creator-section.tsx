@@ -21,9 +21,7 @@ export default function CreatorSection() {
                         )}
                     </div>
                     <div className="lg:col-span-3 text-center lg:text-left">
-                        <h2 className="font-headline text-3xl md:text-4xl font-bold">
-                            Conheça a criadora do método
-                        </h2>
+                        
                         <div className="mt-8 text-foreground/80 space-y-4 text-balance">
                            <p className="font-bold text-xl text-foreground">Dra. Laura Menezes</p>
                            <p className="font-semibold text-foreground">Psicóloga e Idealizadora do Método Neurohipnose Infantil™</p>
