@@ -38,31 +38,41 @@ export default function OfferSection() {
   const [showSpecialOffer, setShowSpecialOffer] = useState(false);
   const [availableSubs, setAvailableSubs] = useState(8);
   const [showViewers, setShowViewers] = useState(false);
+  const [viewersCount, setViewersCount] = useState(0);
 
   const progressValue = ((totalSubscriptions - availableSubs) / totalSubscriptions) * 100;
   
   useEffect(() => {
     let viewersTimeout: NodeJS.Timeout;
     let subsTimeout: NodeJS.Timeout;
+    let viewersTimeout2: NodeJS.Timeout;
 
     if (showSpecialOffer) {
       // Reset state when modal opens
       setAvailableSubs(8);
       setShowViewers(false);
+      setViewersCount(0);
 
       viewersTimeout = setTimeout(() => {
+        setViewersCount(3);
         setShowViewers(true);
       }, 5000);
 
       subsTimeout = setTimeout(() => {
         setAvailableSubs(7);
-        setShowViewers(false); // Optionally hide viewers notification after update
+        setShowViewers(false); // Hide after sub count updates
       }, 10000);
+
+      viewersTimeout2 = setTimeout(() => {
+        setViewersCount(6);
+        setShowViewers(true);
+      }, 20000);
     }
 
     return () => {
       clearTimeout(viewersTimeout);
       clearTimeout(subsTimeout);
+      clearTimeout(viewersTimeout2);
     };
   }, [showSpecialOffer]);
 
@@ -216,7 +226,7 @@ export default function OfferSection() {
             {showViewers && (
                 <div className="absolute bottom-4 left-4 bg-background/80 backdrop-blur-sm border border-foreground/20 rounded-lg px-3 py-2 text-sm flex items-center gap-2 shadow-lg animate-fade-in-up">
                     <Eye className="h-5 w-5 text-accent animate-pulse" />
-                    <p><span className="font-bold">3</span> pessoas estão vendo esta oferta.</p>
+                    <p><span className="font-bold">{viewersCount}</span> pessoas estão vendo esta oferta.</p>
                 </div>
             )}
         </AlertDialogContent>
