@@ -216,7 +216,7 @@ export default function OfferSection() {
                               ))}
                           </ul>
                       </div>
-                      <a href="#" onClick={handleMonthlyOfferClick} className="block mt-8">
+                      <a href="#cta-vitalicio" onClick={handleMonthlyOfferClick} className="block mt-8">
                           <Button id="cta-button-mensal" size="lg" className="w-full h-14 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform bg-accent text-accent-foreground hover:bg-accent/90">
                               ASSINAR PLANO MENSAL
                           </Button>
@@ -272,7 +272,7 @@ export default function OfferSection() {
           
 
           <AlertDialogFooter className="sm:justify-center flex-col gap-2 mt-4 items-center">
-              <a href="#" className="w-full">
+              <a href="#cta-vitalicio" className="w-full">
                 <Button size="lg" className="w-full h-14 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg animate-pulse">
                   QUERO ESTA OFERTA AGORA!
                 </Button>
@@ -290,7 +290,7 @@ export default function OfferSection() {
             {showViewers && (
                 <div className="absolute bottom-4 left-4 bg-background/80 backdrop-blur-sm border border-foreground/20 rounded-lg px-3 py-2 text-sm flex items-center gap-2 shadow-lg animate-fade-in-up">
                     <Eye className="h-5 w-5 text-accent animate-pulse" />
-                    <p><span className="font-bold">{viewersCount}</span> pessoas estão vendo esta oferta.</p>
+                    <p><span className="font-bold">{viewersCount}</span> Mães analisando essa oferta.</p>
                 </div>
             )}
         </AlertDialogContent>
