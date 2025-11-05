@@ -21,7 +21,7 @@ const guarantees = [
   {
     icon: <Headphones className="h-6 w-6 text-purple-300" />,
     title: 'Suporte Garantido',
-    description: 'Equipe especializada disponível 7 dias por semana para resolver qualquer dúvida ou problema.',
+    description: 'Equipe especializada disponivel 7 dias por semana para esclarecimento de duvida e resolução de problemas.',
     tag: 'Garantia #3 - Assistência Total',
     color: 'purple'
   }
