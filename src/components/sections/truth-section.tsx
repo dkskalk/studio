@@ -28,7 +28,7 @@ export default function TruthSection() {
           <div className="mt-12 text-center">
             <a href="#oferta">
                 <Button size="lg" className="w-full md:w-auto bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform h-14 animate-pulse">
-                  QUERO A SOLUÇÃO COMPROVADA
+                  PRECISO VOLTAR A DORMIR
                 </Button>
             </a>
           </div>
