@@ -1,7 +1,7 @@
 import Logo from './logo';
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = 2021;
 
   return (
     <footer className="bg-primary/20 border-t">
