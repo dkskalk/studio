@@ -9,7 +9,7 @@ export default function TruthSection() {
           <Card className="bg-primary/20 border-2 border-primary/50 shadow-2xl shadow-primary/20 text-center">
             <CardHeader className="items-center">
                 <div className="p-4 bg-accent/20 rounded-full border-2 border-accent/30 neon-glow-accent">
-                    <Lightbulb className="h-10 w-10 text-accent animate-pulse" />
+                    <Lightbulb className="h-10 w-10 text-accent animate-blink" />
                 </div>
               <CardTitle className="font-headline text-2xl md:text-3xl font-bold pt-4">
                 A verdade que nenhum pediatra irá te contar...
