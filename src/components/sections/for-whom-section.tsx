@@ -14,11 +14,11 @@ export default function ForWhomSection() {
               </li>
               <li className="flex items-start gap-3">
                 <Check className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
-                <p className="text-foreground/80">Pais que já tentaram de tudo (chás, remédios, simpatias) e nada funcionou de forma consistente.</p>
+                <p className="text-foreground/80">Mães que já tentaram de tudo (chás, remédios, simpatias) e nada funcionou de forma consistente.</p>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
-                <p className="text-foreground/80">Famílias que buscam uma solução natural, segura e baseada em ciência para melhorar as noites de sono.</p>
+                <p className="text-foreground/80">Mães que buscam uma solução natural, segura e baseada em ciência para melhorar as noites de sono.</p>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
@@ -31,11 +31,11 @@ export default function ForWhomSection() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <X className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
-                <p className="text-foreground/80">Para quem busca uma 'pílula mágica' e não está disposto a criar uma rotina e aplicar o método com consistência.</p>
+                <p className="text-foreground/80">Para quem busca uma 'pílula mágica' e não está disposta a criar uma rotina e aplicar o método com consistência.</p>
               </li>
               <li className="flex items-start gap-3">
                 <X className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
-                <p className="text-foreground/80">Para pais que não acreditam no poder da mente e da neurociência para influenciar o comportamento infantil.</p>
+                <p className="text-foreground/80">Para mães que não acreditam no poder da mente e da neurociência para influenciar o comportamento infantil.</p>
               </li>
               <li className="flex items-start gap-3">
                 <X className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
@@ -43,7 +43,7 @@ export default function ForWhomSection() {
               </li>
                  <li className="flex items-start gap-3">
                 <X className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
-                <p className="text-foreground/80">Para quem não está comprometido em investir na qualidade de vida e no desenvolvimento saudável do seu filho.</p>
+                <p className="text-foreground/80">Para quem não está comprometida em investir na qualidade de vida e no desenvolvimento saudável do seu filho.</p>
               </li>
             </ul>
           </div>
