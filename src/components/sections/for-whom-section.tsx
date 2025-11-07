@@ -31,7 +31,7 @@ export default function ForWhomSection() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <X className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
-                <p className="text-foreground/80">Para quem busca uma 'pílula mágica' e não está disposta a criar uma rotina e aplicar o método com consistência.</p>
+                <p className="text-foreground/80">Para mães que buscam uma 'pílula mágica' e não estão dispostas a criar uma rotina e aplicar o método com consistência.</p>
               </li>
               <li className="flex items-start gap-3">
                 <X className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
@@ -39,11 +39,11 @@ export default function ForWhomSection() {
               </li>
               <li className="flex items-start gap-3">
                 <X className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
-                <p className="text-foreground/80">Para pessoas que preferem continuar no ciclo de estresse e noites mal dormidas, sem tomar uma atitude para mudar.</p>
+                <p className="text-foreground/80">Para mães que preferem continuar no ciclo de estresse e noites mal dormidas, sem tomar uma atitude para mudar.</p>
               </li>
                  <li className="flex items-start gap-3">
                 <X className="h-6 w-6 text-destructive flex-shrink-0 mt-1" />
-                <p className="text-foreground/80">Para quem não está comprometida em investir na qualidade de vida e no desenvolvimento saudável do seu filho.</p>
+                <p className="text-foreground/80">Para mães que não estão comprometidas em investir na qualidade de vida e no desenvolvimento saudável do seu filho.</p>
               </li>
             </ul>
           </div>
