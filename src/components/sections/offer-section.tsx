@@ -177,7 +177,7 @@ export default function OfferSection() {
                               ))}
                           </ul>
                       </div>
-                      <a href="#" className="block mt-8">
+                      <a href="https://pay.kirvano.com/ac247489-924e-4ef8-aea9-b185b6257713" className="block mt-8">
                           <Button id="cta-button-vitalicio" size="lg" className="w-full h-16 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transform hover:scale-105 transition-transform animate-pulse">
                               QUERO ACESSO VITALÍCIO!
                           </Button>
