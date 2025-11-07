@@ -278,7 +278,7 @@ export default function OfferSection() {
                 </Button>
               </a>
               <div className='text-center text-xs text-foreground/60 mt-2 space-y-1'>
-                <a href="#" onClick={(e) => { e.preventDefault(); document.getElementById('cta-button-mensal')?.click(); setShowSpecialOffer(false); }} className="underline hover:text-foreground">
+                <a href="https://pay.kirvano.com/8ea7a266-a8d5-48f0-b203-d1b7fbd48e36" className="underline hover:text-foreground">
                   Não, obrigado. Quero seguir com a assinatura mensal.
                 </a>
               </div>
