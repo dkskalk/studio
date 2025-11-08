@@ -11,7 +11,7 @@ export default function CreatorSection() {
                     <div className="lg:col-span-2 flex justify-center">
                         {creatorImage && (
                             <Image 
-                                src="https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F3ea2195f1bd171be9b1689b0d1e573e8.png?alt=media&token=4a594833-875f-4a6c-9a4f-56a5c13e5361"
+                                src="https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F71d2b78d2345892582845c087920ab33.png?alt=media&token=7c1c05d7-1335-43a0-b53e-51c07095c92f"
                                 alt="Dra. Laura Menezes, criadora do método Neurohipnose Infantil"
                                 width={400}
                                 height={400}
