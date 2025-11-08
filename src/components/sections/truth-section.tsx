@@ -13,7 +13,7 @@ export default function TruthSection() {
                     <Lightbulb className="h-10 w-10 text-accent animate-blink" />
                 </div>
               <CardTitle className="font-headline text-2xl md:text-3xl font-bold pt-4">
-                A verdade que nenhum pediatra irá te contar...
+                A Neuropediatria mudou a forma de abordar o sono infantil na era digital.
               </CardTitle>
             </CardHeader>
             <CardContent className="text-lg md:text-xl text-foreground/90 space-y-6 p-8">
