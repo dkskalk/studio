@@ -37,7 +37,7 @@ export default function MethodSection() {
         <div className="text-center max-w-4xl mx-auto">
             <Badge variant="outline" className="text-base px-6 py-2">Conteúdo do método</Badge>
             <h2 className="font-headline text-4xl md:text-5xl font-bold mt-4">
-                O método que vai devolver a tranquilidade das suas noites
+                O método que vai devolver a tranquilidade das suas noites.
             </h2>
         </div>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
