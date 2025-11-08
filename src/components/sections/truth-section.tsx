@@ -18,7 +18,7 @@ export default function TruthSection() {
             </CardHeader>
             <CardContent className="text-lg md:text-xl text-foreground/90 space-y-6 p-8">
               <p className="opacity-0 animate-fade-in-up [animation-delay:0.2s]">
-                Crianças da era digital possuem uma fiação neurológica diferente. Bombardeadas por estímulos, seus cérebros operam em uma frequência mais alta, com imensa dificuldade de se "desligar" para dormir.
+                Crianças da era digital possuem uma fiação neurológica diferente. Bombardeadas por hiper estímulos desde a barriga, seus cérebros operam em uma frequência mais alta, com imensa dificuldade de se "desligar" para dormir.
               </p>
               <p className="font-bold text-accent/90 opacity-0 animate-fade-in-up [animation-delay:0.5s]">
                 Métodos tradicionais de sono, criados para uma geração pré-digital, simplesmente não são eficazes para acalmar um cérebro hiperestimulado.
