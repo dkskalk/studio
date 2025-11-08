@@ -16,8 +16,8 @@ export default function CreatorSection() {
                     <div className="flex justify-center">
                         {creatorImage && (
                             <Image 
-                                src="https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F71d2b78d2345892582845c087920ab33.png?alt=media&token=7c1c05d7-1335-43a0-b53e-51c07095c92f"
-                                alt="Dra. Laura Menezes, criadora do método Neurohipnose Infantil"
+                                src={creatorImage.imageUrl}
+                                alt={creatorImage.description}
                                 width={400}
                                 height={400}
                                 className="rounded-full aspect-square object-cover border-8 border-primary/50 shadow-2xl shadow-primary/30"
