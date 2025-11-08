@@ -27,25 +27,25 @@
     {
       "id": "testimonial-patricia",
       "description": "A happy mother outdoors with her child out of focus in the background.",
-      "imageUrl": "https://images.unsplash.com/photo-1565498212132-3e582834b358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMG1vdGhlcnxlbnwwfHx8fDE3NjE2MTM2MTB8MA&ixlib-rb-4.1.0&q=80&w=200",
+      "imageUrl": "https://images.unsplash.com/photo-1565498212132-3e582834b358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMG1vdGhlcnxlbnwwfHx8fDE3NjE2MTM2MTB8MA&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "happy mother"
     },
     {
       "id": "testimonial-amanda",
       "description": "Close-up portrait of a thoughtful woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTc2MTYxMzY0NHww&ixlib-rb-4.1.0&q=80&w=200",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTc2MTYxMzY0NHww&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "woman portrait"
     },
     {
       "id": "testimonial-sofia",
       "description": "A woman with a bright, happy smile.",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTc2MTYxMzY0NHww&ixlib-rb-4.1.0&q=80&w=200",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb3J0cmFpdCUyMHdvbWFufGVufDB8fHx8MTc2MTYxMzY0NHww&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "woman smiling"
     },
     {
       "id": "testimonial-laura",
       "description": "A mother and daughter smiling.",
-      "imageUrl": "https://images.unsplash.com/photo-1551498624-3712f8e41930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb3RoZXIlMjBkYXVnaHRlcnxlbnwwfHx8fDE3NjIyMDYxNjR8MA&ixlib-rb-4.1.0&q=80&w=200",
+      "imageUrl": "https://images.unsplash.com/photo-1551498624-3712f8e41930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb3RoZXIlMjBkYXVnaHRlcnxlbnwwfHx8fDE3NjIyMDYxNjR8MA&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "mother daughter"
     },
     {
@@ -57,19 +57,19 @@
     {
       "id": "testimonial-gabriela",
       "description": "A happy person smiling.",
-      "imageUrl": "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjIxNjI4OTN8MA&ixlib-rb-4.1.0&q=80&w=200",
+      "imageUrl": "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjIxNjI4OTN8MA&ixlib=rb-4.1.0&q=80&w=200",
       "imageHint": "happy person"
     },
     {
       "id": "og-image",
       "description": "A child sleeping peacefully in a bed with soft lighting.",
-      "imageUrl": "https://images.unsplash.com/photo-1484411993245-c4740b20509a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMHNsZWVwaW5nJTIwYmVkfGVufDB8fHx8MTc2MjE4ODU2OXww&ixlib-rb-4.1.0&q=80&w=1200",
+      "imageUrl": "https://images.unsplash.com/photo-1484411993245-c4740b20509a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMHNsZWVwaW5nJTIwYmVkfGVufDB8fHx8MTc2MjE4ODU2OXww&ixlib=rb-4.1.0&q=80&w=1200",
       "imageHint": "child sleeping"
     },
     {
       "id": "dra-laura",
       "description": "Portrait of Dra. Laura Menezes, a smiling woman in her 40s with a professional and friendly look.",
-      "imageUrl": "https://images.unsplash.com/photo-1762438473679-0a6a4de908b3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+      "imageUrl": "https://i.imgur.com/muJHPxj.jpeg",
       "imageHint": "woman doctor"
     }
   ]
