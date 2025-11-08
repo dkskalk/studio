@@ -63,7 +63,7 @@ const testimonials = [
   {
     name: 'Beatriz G.',
     location: 'Recife, PE',
-    image: {imageUrl: 'https://images.unsplash.com/photo-1637878254368-bbfd27555aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3RoZXIlMjBvdXRkb29yfGVufDB8fHx8MTc2MjIxOTY0Mnww&ixlib=rb-4.1.0&q=80&w=1080', imageHint: 'mother outdoor'},
+    image: {imageUrl: 'https://images.unsplash.com/photo-1637878254368-bbfd27555aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3RoZXIlMjBvdXRkb29yfGVufDB8fHx8MTc2MjIxOTY0Mnww&ixlib-rb-4.1.0&q=80&w=1080', imageHint: 'mother outdoor'},
     text: "O guia de rotina foi essencial. Junto com os áudios, criamos um ritual de sono que funciona todas as noites. Adeus, noites em claro!",
   },
   {
@@ -90,7 +90,7 @@ export default function TestimonialsSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">
-            Mães que voltaram a dormir e agora conseguem desfrutar do amor da maternidade
+            ✨🌙Mães que voltaram a dormir e agora vivem o amor da maternidade.
           </h2>
         </div>
         <div className="mt-12">
