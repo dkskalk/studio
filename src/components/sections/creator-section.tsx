@@ -7,8 +7,13 @@ export default function CreatorSection() {
     return (
         <section id="creator" className="py-20 md:py-28 bg-secondary/30">
             <div className="container mx-auto px-4 md:px-6">
-                <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
-                    <div className="lg:col-span-2 flex justify-center">
+                <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
+                    <h2 className="font-headline text-3xl md:text-4xl font-bold">
+                        Conheça a especialista por trás do método
+                    </h2>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+                    <div className="flex justify-center">
                         {creatorImage && (
                             <Image 
                                 src="https://storage.googleapis.com/aifirebase-7a2e4.appspot.com/users%2FwD8T2AxgZ5Rkwypzns1t2Tf51iA2%2Fprojects%2Fc2c5443e-a740-42f8-8a03-7a988d89e474%2F71d2b78d2345892582845c087920ab33.png?alt=media&token=7c1c05d7-1335-43a0-b53e-51c07095c92f"
@@ -20,22 +25,17 @@ export default function CreatorSection() {
                             />
                         )}
                     </div>
-                    <div className="lg:col-span-3 text-center lg:text-left">
-                        
-                        <div className="mt-8 text-foreground/80 space-y-4 text-balance">
-                           <p className="font-bold text-xl text-foreground">Dra. Laura Menezes</p>
-                           <p className="font-semibold text-foreground">Psicóloga e Idealizadora do Método Neurohipnose Infantil™</p>
-                           
-                           <p>Com mais de 15 anos de experiência em psicologia clínica e estudos avançados sobre neurociência e comportamento infantil, Dra. Laura Menezes tornou-se referência no atendimento de crianças com distúrbios de sono, ansiedade e hiperatividade.</p>
+                    <div className="text-center md:text-left space-y-4 text-foreground/80 text-balance">
+                       <h3 className="font-bold text-2xl font-headline text-foreground">Dra. Laura Menezes</h3>
+                       <p className="font-semibold text-lg text-foreground/90">Psicóloga e Idealizadora do Método Neurohipnose Infantil™</p>
+                       
+                       <p>Com mais de 15 anos de experiência em psicologia clínica e estudos avançados sobre neurociência e comportamento infantil, Dra. Laura Menezes tornou-se referência no atendimento de crianças com distúrbios de sono, ansiedade e hiperatividade.</p>
 
-                           <p>Formada em Psicologia pela Universidade de São Paulo (USP), com especialização em Neuropsicologia e Terapias de Reprogramação Mental, ela sempre acreditou que o sono é a base do equilíbrio emocional infantil.</p>
+                       <p>Formada em Psicologia pela Universidade de São Paulo (USP), com especialização em Neuropsicologia e Terapias de Reprogramação Mental, ela sempre acreditou que o sono é a base do equilíbrio emocional infantil.</p>
 
-                           <p>Ao longo de sua trajetória, Dra. Laura percebeu que as abordagens tradicionais muitas vezes não alcançavam os resultados desejados, principalmente em crianças da era pós-digital — mais estimuladas, ansiosas e resistentes a métodos convencionais de relaxamento. Foi a partir dessa inquietação que ela desenvolveu o Método Neurohipnose Infantil™, uma técnica inovadora e totalmente segura, que combina princípios da hipnose clínica, neuroplasticidade e sons de indução suave para restaurar a qualidade do sono infantil de forma natural e profunda.</p>
-
-                           <p>Seu trabalho ganhou reconhecimento nacional por ajudar milhares de famílias a transformarem noites de tensão em momentos de paz. Hoje, Dra. Laura dedica-se integralmente à missão de ensinar mães e pais a reconectarem seus filhos com o sono, o descanso e o bem-estar emocional — sem o uso de medicamentos, telas ou estímulos artificiais.</p>
-                           
-                           <p>Com empatia e linguagem simples, ela traduz conceitos científicos complexos em práticas acessíveis, oferecendo às famílias uma nova esperança através da Neurohipnose Infantil™, o primeiro método brasileiro de indução suave de sono profundo especialmente criado para crianças da era digital.</p>
-                        </div>
+                       <p>Ao longo de sua trajetória, Dra. Laura percebeu que as abordagens tradicionais muitas vezes não alcançavam os resultados desejados, principalmente em crianças da era pós-digital — mais estimuladas, ansiosas e resistentes a métodos convencionais de relaxamento. Foi a partir dessa inquietação que ela desenvolveu o Método Neurohipnose Infantil™, uma técnica inovadora e totalmente segura.</p>
+                       
+                       <p>Seu trabalho ganhou reconhecimento nacional por ajudar milhares de famílias a transformarem noites de tensão em momentos de paz, reconectando seus filhos com o sono e o bem-estar emocional.</p>
                     </div>
                 </div>
             </div>
