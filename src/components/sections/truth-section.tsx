@@ -21,7 +21,7 @@ export default function TruthSection() {
                 Crianças da era digital possuem uma fiação neurológica diferente. Bombardeadas por estímulos, seus cérebros operam em uma frequência mais alta, com imensa dificuldade de se "desligar" para dormir.
               </p>
               <p className="font-bold text-accent/90 opacity-0 animate-fade-in-up [animation-delay:0.5s]">
-                Métodos tradicionais de sono, criados para uma geração pré-digital, simplesmente <span className="underline">não são eficazes</span> para acalmar um cérebro hiperestimulado.
+                Métodos tradicionais de sono, criados para uma geração pré-digital, simplesmente não são eficazes para acalmar um cérebro hiperestimulado.
               </p>
             </CardContent>
           </Card>
