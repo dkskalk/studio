@@ -143,7 +143,7 @@ export default function OfferSection() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center">
               <h2 className="font-headline text-3xl md:text-4xl font-bold text-foreground">
-                  Escolha o plano ideal para trazer de volta suas noites de sono
+                  ❤️ Escolha o plano que vai trazer de volta a mãe que seu filho tanto necessita.
               </h2>
               <p className="mt-4 text-lg text-foreground/80">
                   Comece a transformar suas noites hoje mesmo. Acesso imediato e 100% seguro.
