@@ -90,7 +90,7 @@ export default function TestimonialsSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">
-            Mães que recuperaram a paz
+            Mães que voltaram a dormir e agora conseguem desfrutar do amor da maternidade
           </h2>
         </div>
         <div className="mt-12">
