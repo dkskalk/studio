@@ -7,7 +7,7 @@ const modules = [
     icon: <Headphones className="h-8 w-8 text-accent" />,
     title: 'Áudios de Neurohipnose',
     price: 'R$ 97',
-    description: 'Áudios com o método de neurohipnose para acalmar e fazer seu filho dormir.',
+    description: 'Áudios com frequências que atuam na redução da agitação, trazendo calma e fazendo crianças aceleradas dormirem com tranquilidade.',
   },
   {
     icon: <Puzzle className="h-8 w-8 text-accent" />,
