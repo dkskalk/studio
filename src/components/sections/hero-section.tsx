@@ -1,11 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Moon, Star } from 'lucide-react';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function HeroSection() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'hero-placeholder');
-
   return (
     <section id="inicio" className="relative overflow-hidden bg-gradient-to-b from-primary/30 to-transparent pt-28 pb-12 text-center">
       
@@ -31,15 +27,10 @@ export default function HeroSection() {
         
         <div className="mt-10 max-w-3xl mx-auto">
             <div className="relative aspect-video w-full rounded-lg overflow-hidden shadow-2xl border-4 border-background/50 bg-muted group">
-               {heroImage && (
-                <Image
-                  src={heroImage.imageUrl}
-                  alt={heroImage.description}
-                  fill
-                  style={{ objectFit: 'cover' }}
-                  data-ai-hint={heroImage.imageHint}
-                />
-               )}
+               <div 
+                  className="wistia_embed wistia_async_8y71llvfz6 videoFoam=true" 
+                  style={{ height: '100%', width: '100%', position: 'absolute', top: 0, left: 0 }}
+                >&nbsp;</div>
             </div>
         </div>
 

@@ -76,6 +76,7 @@ export default function RootLayout({
           />
         </noscript>
         {/* End Meta Pixel Code */}
+        <Script src="https://fast.wistia.com/player.js" strategy="afterInteractive" async />
       </head>
       <body className="font-body antialiased">
         <ThemeProvider
