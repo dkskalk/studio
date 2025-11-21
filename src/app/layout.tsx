@@ -88,7 +88,7 @@ export default function RootLayout({
           <Toaster />
           <CookieConsent />
         </ThemeProvider>
-        <Script src="https://fast.wistia.com/player.js" strategy="lazyOnload" async />
+        <Script src="https://fast.wistia.net/player.js" strategy="lazyOnload" async />
       </body>
     </html>
   );

@@ -28,7 +28,28 @@ export default function HeroSection() {
         
         <div className="mt-10 max-w-3xl mx-auto">
             <div className="relative aspect-video w-full rounded-lg overflow-hidden shadow-2xl border-4 border-background/50 bg-muted group">
-                 <div className="wistia_embed wistia_async_8y71llvfz6 videoFoam=true" style={{height:"100%",width:"100%",position:"absolute",top:0,left:0}}>&nbsp;</div>
+                 <div
+                    className="wistia_responsive_padding"
+                    style={{ padding: '56.25% 0 0 0', position: 'relative' }}
+                  >
+                    <div
+                      className="wistia_responsive_wrapper"
+                      style={{ height: '100%', left: 0, position: 'absolute', top: 0, width: '100%' }}
+                    >
+                      <iframe
+                        src="https://fast.wistia.net/embed/iframe/8y71llvfz6?videoFoam=true&seo=true"
+                        title="Video"
+                        allow="autoplay; fullscreen"
+                        allowTransparency={true}
+                        frameBorder="0"
+                        scrolling="no"
+                        className="wistia_embed"
+                        name="wistia_embed"
+                        width="100%"
+                        height="100%"
+                      ></iframe>
+                    </div>
+                  </div>
             </div>
         </div>
 
