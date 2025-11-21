@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Moon, Star } from 'lucide-react';
+import Script from 'next/script';
 
 export default function HeroSection() {
   return (
@@ -42,6 +43,8 @@ export default function HeroSection() {
             </a>
         </div>
       </div>
+      <Script src="https://fast.wistia.com/player.js" strategy="lazyOnload" async />
+      <Script src="https://fast.wistia.com/embed/medias/8y71llvfz6.jsonp" strategy="lazyOnload" async />
     </section>
   );
 }
