@@ -28,14 +28,7 @@ export default function HeroSection() {
         
         <div className="mt-10 max-w-3xl mx-auto">
             <div className="relative aspect-video w-full rounded-lg overflow-hidden shadow-2xl border-4 border-background/50 bg-muted group">
-               <iframe 
-                  src="https://www.youtube.com/embed/gZx12-r3lkw" 
-                  title="YouTube video player" 
-                  frameBorder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  allowFullScreen
-                  className="absolute top-0 left-0 w-full h-full"
-                ></iframe>
+                 <div className="wistia_embed wistia_async_8y71llvfz6 videoFoam=true" style={{height:"100%",width:"100%",position:"absolute",top:0,left:0}}>&nbsp;</div>
             </div>
         </div>
 
