@@ -50,11 +50,9 @@ export default function Home() {
           </>
         )}
       </main>
+      <FloatingCta />
       {showContent && (
-        <>
-          <Footer />
-          <FloatingCta />
-        </>
+        <Footer />
       )}
     </div>
   );
