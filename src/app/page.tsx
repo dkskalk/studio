@@ -1,3 +1,6 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import HeroSection from '@/components/sections/hero-section';
 import ProblemSection from '@/components/sections/problem-section';
 import BenefitsSection from '@/components/sections/benefits-section';
@@ -16,25 +19,43 @@ import CreatorSection from '@/components/sections/creator-section';
 
 
 export default function Home() {
+  const [showContent, setShowContent] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowContent(true);
+    }, 194000); // 194 seconds
+
+    return () => clearTimeout(timer); // Cleanup the timer
+  }, []);
+
   return (
     <div className="flex flex-col min-h-dvh">
       <Header />
       <main className="flex-grow">
         <HeroSection />
-        <ProblemSection />
-        <BenefitsSection />
-        <TruthSection />
-        <ForWhomSection />
-        <TestimonialsSection />
-        <MethodSection />
-        <OfferSection />
-        <GuaranteeSection />
-        <FinalCallSection />
-        <CreatorSection />
-        <FaqSection />
+        {showContent && (
+          <>
+            <ProblemSection />
+            <BenefitsSection />
+            <TruthSection />
+            <ForWhomSection />
+            <TestimonialsSection />
+            <MethodSection />
+            <OfferSection />
+            <GuaranteeSection />
+            <FinalCallSection />
+            <CreatorSection />
+            <FaqSection />
+          </>
+        )}
       </main>
-      <Footer />
-      <FloatingCta />
+      {showContent && (
+        <>
+          <Footer />
+          <FloatingCta />
+        </>
+      )}
     </div>
   );
 }
