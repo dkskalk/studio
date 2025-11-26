@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Moon, Star } from 'lucide-react';
 import Script from 'next/script';
 
-export default function HeroSection() {
+export default function HeroSection({ showCta }: { showCta: boolean }) {
   return (
     <section id="inicio" className="relative overflow-hidden bg-gradient-to-b from-primary/30 to-transparent pt-28 pb-12 text-center">
       
@@ -53,13 +53,15 @@ export default function HeroSection() {
             </div>
         </div>
 
-        <div className="mt-8">
-            <a href="#oferta">
-                <Button size="lg" className="w-full md:w-auto bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform h-14">
-                  QUERO NOITES DE PAZ
-                </Button>
-            </a>
-        </div>
+        {showCta && (
+          <div className="mt-8">
+              <a href="#oferta">
+                  <Button size="lg" className="w-full md:w-auto bg-accent text-accent-foreground hover:bg-accent/90 text-lg font-bold shadow-lg transform hover:scale-105 transition-transform h-14">
+                    QUERO NOITES DE PAZ
+                  </Button>
+              </a>
+          </div>
+        )}
       </div>
     </section>
   );
