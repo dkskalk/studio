@@ -3,11 +3,6 @@ import { Waves, Brain, Clock } from 'lucide-react';
 
 const discoveries = [
   {
-    icon: <Waves className="h-8 w-8 text-accent" />,
-    title: 'Ondas sonoras que acalmam',
-    description: 'Nosso método utiliza sons com frequências específicas que acalmam o cérebro da criança e o preparam para o sono profundo.',
-  },
-  {
     icon: <Brain className="h-8 w-8 text-accent" />,
     title: 'Reprogramação mental para o sono',
     description: 'Através da repetição o cérebro da criança assimila as informações e aprende a relaxar na hora de dormir, criando um novo hábito.',
@@ -28,7 +23,7 @@ export default function BenefitsSection() {
             🧠 Revelações recentes que mudam completamente a forma de entender o sono infantil no mundo moderno.
           </h2>
         </div>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
           {discoveries.map((discovery, index) => (
             <Card key={index} className="bg-card shadow-lg hover:shadow-accent/20 transition-all duration-300 text-center border-2 border-primary/50 hover:border-accent/50 shadow-primary/20 hover:scale-105">
               <CardHeader>
