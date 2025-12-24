@@ -52,7 +52,7 @@ export default function Header() {
         <div className="flex items-center gap-2">
            <ThemeToggle />
            <a href="#cta-vitalicio">
-            <Button className="hidden md:inline-flex bg-accent text-accent-foreground hover:bg-accent/90">Comprar Agora</Button>
+            <Button className="hidden md:inline-flex bg-accent text-accent-foreground hover:bg-accent/90">Acessar Agora</Button>
            </a>
           <div className="md:hidden">
             <Sheet open={open} onOpenChange={setOpen}>
@@ -85,7 +85,7 @@ export default function Header() {
                       </a>
                     ))}
                     <a href="#cta-vitalicio" onClick={() => setOpen(false)}>
-                      <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">Comprar Agora</Button>
+                      <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">Acessar Agora</Button>
                     </a>
                   </nav>
                 </div>
