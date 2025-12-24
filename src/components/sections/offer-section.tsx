@@ -162,7 +162,7 @@ export default function OfferSection() {
                       <div className="my-8 text-center">
                           <p className="text-lg text-foreground/70 line-through">De R$ 379,90 por apenas</p>
                           <p className="font-headline text-6xl font-bold text-foreground">
-                              R$ 37<span className="text-5xl align-top">,90</span>
+                              R$ 29<span className="text-5xl align-top">,90</span>
                           </p>
                           <p className="font-semibold text-foreground/80">(Pagamento único)</p>
                       </div>
