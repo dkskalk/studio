@@ -268,7 +268,7 @@ export default function OfferSection() {
           
 
           <AlertDialogFooter className="sm:justify-center flex-col gap-2 mt-4 items-center">
-              <a href="https://pay.kirvano.com/8ea7a266-a8d5-48f0-b203-d1b7fbd48e36" className="w-full">
+              <a href="https://pay.kirvano.com/3406fcaa-3cf3-49ac-a984-706ca4e35466" className="w-full">
                 <Button size="lg" className="w-full h-14 text-xl font-bold bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg animate-pulse">
                   QUERO ESTA OFERTA AGORA!
                 </Button>
