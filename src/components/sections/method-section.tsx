@@ -4,12 +4,6 @@ import { Headphones, Puzzle, BarChart3, Gift } from 'lucide-react';
 
 const modules = [
   {
-    icon: <Headphones className="h-8 w-8 text-accent" />,
-    title: 'Áudios de Neurohipnose',
-    price: 'R$ 97',
-    description: 'Áudios com frequências que atuam na redução da agitação, trazendo calma e fazendo crianças aceleradas dormirem com tranquilidade.',
-  },
-  {
     icon: <Puzzle className="h-8 w-8 text-accent" />,
     title: 'Técnicas de Relaxamento',
     price: 'R$ 147',
@@ -40,7 +34,7 @@ export default function MethodSection() {
                 O método que vai devolver a tranquilidade das suas noites.
             </h2>
         </div>
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {modules.map((module) => (
             <Card key={module.title} className="flex flex-col text-center border-2 border-transparent shadow-lg bg-primary/20 neon-glow-primary transition-all duration-300 hover:scale-105 hover:shadow-accent/20 p-4">
               <CardHeader className="items-center">
