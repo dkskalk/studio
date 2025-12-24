@@ -20,7 +20,6 @@ import { cn } from '@/lib/utils';
 
 
 const lifetimeItems = [
-    'Áudios de Neurohipnose',
     'Técnicas de Relaxamento',
     'Guia de Rotina do Sono',
     'Bônus Exclusivos',
@@ -28,7 +27,6 @@ const lifetimeItems = [
 ];
 
 const monthlyItems = [
-    'Áudios de Neurohipnose',
     'Técnicas de Relaxamento',
     'Guia de Rotina do Sono',
 ];
