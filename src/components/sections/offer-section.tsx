@@ -192,7 +192,6 @@ export default function OfferSection() {
                   </CardHeader>
                   <CardContent className="flex flex-col flex-grow">
                       <div className="my-8 text-center">
-                          <p className="text-lg text-foreground/70 line-through">De R$ 197,90 por</p>
                           <p className="font-headline text-5xl font-bold text-foreground">
                               R$ 9<span className="text-4xl align-top">,90</span>
                           </p>
