@@ -275,7 +275,7 @@ export default function OfferSection() {
               </a>
               <div className='text-center text-xs text-foreground/60 mt-2 space-y-1'>
                  <p>Ou se preferir...</p>
-                <a href="https://pay.kirvano.com/ac247489-924e-4ef8-aea9-b185b6257713" className="underline hover:text-foreground">
+                <a href="https://pay.kirvano.com/8ea7a266-a8d5-48f0-b203-d1b7fbd48e36" className="underline hover:text-foreground">
                   Não, obrigado. Quero seguir com a assinatura mensal.
                 </a>
               </div>
