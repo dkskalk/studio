@@ -274,9 +274,9 @@ export default function OfferSection() {
                 </Button>
               </a>
               <div className='text-center text-xs text-foreground/60 mt-2 space-y-1'>
-                <a href="https://pay.kirvano.com/8ea7a266-a8d5-48f0-b203-d1b7fbd48e36" className="underline hover:text-foreground">
-                  Não, obrigado. Quero seguir com a assinatura mensal.
-                </a>
+                <button onClick={() => setShowSpecialOffer(false)} className="underline hover:text-foreground">
+                  Não, obrigado.
+                </button>
               </div>
           </AlertDialogFooter>
            <button onClick={() => setShowSpecialOffer(false)} className="absolute top-2 right-2 p-1 rounded-full text-foreground/50 hover:bg-white/10 hover:text-foreground">
