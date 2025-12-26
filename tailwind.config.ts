@@ -113,7 +113,17 @@ export default {
         'pulse-scale': {
             '0%, 100%': { transform: 'scale(1)' },
             '50%': { transform: 'scale(1.25)' },
-        }
+        },
+        'confetti-fall': {
+            '0%': {
+                transform: 'translateX(var(--x-start)) translateY(-10vh) rotate(var(--rotation-start)) scale(var(--scale))',
+                opacity: '1',
+            },
+            '100%': {
+                transform: 'translateX(calc(var(--x-start) * -1)) translateY(var(--y-end)) rotate(var(--rotation-end)) scale(var(--scale))',
+                opacity: '0',
+            },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',

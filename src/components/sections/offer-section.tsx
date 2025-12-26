@@ -17,6 +17,7 @@ import {
 import SpecialOfferCountdown from '@/components/ui/special-offer-countdown';
 import { Progress } from '@/components/ui/progress';
 import { cn } from '@/lib/utils';
+import Confetti from '@/components/ui/confetti';
 
 
 const lifetimeItems = [
@@ -44,23 +45,27 @@ export default function OfferSection() {
   const [showViewers, setShowViewers] = useState(false);
   const [viewersCount, setViewersCount] = useState(0);
   const [animateSubs, setAnimateSubs] = useState(false);
+  const [fireConfetti, setFireConfetti] = useState(false);
+
 
   const progressValue = ((totalSubscriptions - availableSubs) / totalSubscriptions) * 100;
   
   const triggerSubsAnimation = () => {
     setAnimateSubs(true);
+    setFireConfetti(true);
     setTimeout(() => setAnimateSubs(false), 500); // Duration of the animation
   }
 
   useEffect(() => {
-    const timeouts: NodeJS.Timeout[] = [];
-    let viewersInterval: NodeJS.Timeout;
+    let timeouts: NodeJS.Timeout[] = [];
+    let viewersInterval: NodeJS.Timeout | undefined;
 
     if (showSpecialOffer) {
       // Reset state when modal opens
       setAvailableSubs(8);
       setShowViewers(false);
       setViewersCount(0);
+      setFireConfetti(false);
 
       // --- Initial Scripted Events ---
 
@@ -234,6 +239,7 @@ export default function OfferSection() {
 
       <AlertDialog open={showSpecialOffer} onOpenChange={setShowSpecialOffer}>
         <AlertDialogContent className="bg-background border-yellow-400 shadow-yellow-400/30" style={{boxShadow: '0 0 15px hsl(var(--ring)), 0 0 20px hsl(var(--ring) / 0.8)'}}>
+          <Confetti fire={fireConfetti} onComplete={() => setFireConfetti(false)} />
           <AlertDialogHeader>
             <AlertDialogTitle className="font-headline text-3xl text-center text-yellow-400 flex items-center justify-center gap-2">
               <AlertTriangle className="h-8 w-8" /> OFERTA ÚNICA!
