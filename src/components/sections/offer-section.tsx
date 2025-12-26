@@ -259,7 +259,7 @@ export default function OfferSection() {
           
           <div className="my-4 text-center">
             <h3 className="font-headline text-2xl font-bold">Acesso VITALÍCIO por um preço irrecusável!</h3>
-            <p className="text-lg text-foreground/70 line-through mt-2">De R$ 379,90</p>
+            <p className="text-lg text-foreground/70 line-through mt-2">De R$ 29,90</p>
             <p className="font-headline text-7xl font-bold text-foreground">
                 R$ 19<span className="text-6xl align-top">,90</span>
             </p>
